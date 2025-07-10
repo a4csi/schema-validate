@@ -1,0 +1,5 @@
+# Don't publish build scripts or tests
+scripts/
+test/
+README.md
+LICENSE

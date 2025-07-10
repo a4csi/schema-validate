@@ -1,0 +1,8755 @@
+{
+  "Schedule": {
+    "repeatCount": [
+      "Integer"
+    ],
+    "byMonthDay": [
+      "Integer"
+    ],
+    "startTime": [
+      "DateTime",
+      "Time"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "scheduleTimezone": [
+      "Text"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "endTime": [
+      "Time",
+      "DateTime"
+    ],
+    "repeatFrequency": [
+      "Text",
+      "Duration"
+    ],
+    "byMonthWeek": [
+      "Integer"
+    ],
+    "byDay": [
+      "DayOfWeek",
+      "Text"
+    ],
+    "byMonth": [
+      "Integer"
+    ],
+    "exceptDate": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "APIReference": {
+    "executableLibraryName": [
+      "Text"
+    ],
+    "targetPlatform": [
+      "Text"
+    ],
+    "programmingModel": [
+      "Text"
+    ],
+    "assembly": [
+      "Text"
+    ],
+    "assemblyVersion": [
+      "Text"
+    ]
+  },
+  "MolecularEntity": {
+    "inChIKey": [
+      "Text"
+    ],
+    "molecularWeight": [
+      "Text",
+      "QuantitativeValue"
+    ],
+    "smiles": [
+      "Text"
+    ],
+    "molecularFormula": [
+      "Text"
+    ],
+    "potentialUse": [
+      "DefinedTerm"
+    ],
+    "iupacName": [
+      "Text"
+    ],
+    "chemicalRole": [
+      "DefinedTerm"
+    ],
+    "inChI": [
+      "Text"
+    ],
+    "monoisotopicMolecularWeight": [
+      "QuantitativeValue",
+      "Text"
+    ]
+  },
+  "OpeningHoursSpecification": {
+    "opens": [
+      "Time"
+    ],
+    "closes": [
+      "Time"
+    ],
+    "dayOfWeek": [
+      "DayOfWeek"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "HealthPlanNetwork": {
+    "healthPlanNetworkId": [
+      "Text"
+    ],
+    "healthPlanCostSharing": [
+      "Boolean"
+    ],
+    "healthPlanNetworkTier": [
+      "Text"
+    ]
+  },
+  "MedicalOrganization": {
+    "healthPlanNetworkId": [
+      "Text"
+    ],
+    "isAcceptingNewPatients": [
+      "Boolean"
+    ],
+    "medicalSpecialty": [
+      "MedicalSpecialty"
+    ]
+  },
+  "Person": {
+    "jobTitle": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "award": [
+      "Text"
+    ],
+    "isicV4": [
+      "Text"
+    ],
+    "agentInteractionStatistic": [
+      "InteractionCounter"
+    ],
+    "duns": [
+      "Text"
+    ],
+    "colleague": [
+      "Person",
+      "URL"
+    ],
+    "additionalName": [
+      "Text"
+    ],
+    "email": [
+      "Text"
+    ],
+    "parents": [
+      "Person"
+    ],
+    "parent": [
+      "Person"
+    ],
+    "gender": [
+      "GenderType",
+      "Text"
+    ],
+    "publishingPrinciples": [
+      "URL",
+      "CreativeWork"
+    ],
+    "colleagues": [
+      "Person"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "memberOf": [
+      "ProgramMembership",
+      "MemberProgramTier",
+      "Organization"
+    ],
+    "worksFor": [
+      "Organization"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "skills": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "givenName": [
+      "Text"
+    ],
+    "naics": [
+      "Text"
+    ],
+    "awards": [
+      "Text"
+    ],
+    "interactionStatistic": [
+      "InteractionCounter"
+    ],
+    "telephone": [
+      "Text"
+    ],
+    "netWorth": [
+      "PriceSpecification",
+      "MonetaryAmount"
+    ],
+    "deathDate": [
+      "Date"
+    ],
+    "affiliation": [
+      "Organization"
+    ],
+    "workLocation": [
+      "ContactPoint",
+      "Place"
+    ],
+    "siblings": [
+      "Person"
+    ],
+    "knowsAbout": [
+      "URL",
+      "Text",
+      "Thing"
+    ],
+    "pronouns": [
+      "StructuredValue",
+      "Text",
+      "DefinedTerm"
+    ],
+    "address": [
+      "Text",
+      "PostalAddress"
+    ],
+    "performerIn": [
+      "Event"
+    ],
+    "contactPoints": [
+      "ContactPoint"
+    ],
+    "hasPOS": [
+      "Place"
+    ],
+    "globalLocationNumber": [
+      "Text"
+    ],
+    "taxID": [
+      "Text"
+    ],
+    "children": [
+      "Person"
+    ],
+    "makesOffer": [
+      "Offer"
+    ],
+    "hasOccupation": [
+      "Occupation"
+    ],
+    "contactPoint": [
+      "ContactPoint"
+    ],
+    "birthPlace": [
+      "Place"
+    ],
+    "sibling": [
+      "Person"
+    ],
+    "vatID": [
+      "Text"
+    ],
+    "seeks": [
+      "Demand"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ],
+    "relatedTo": [
+      "Person"
+    ],
+    "knows": [
+      "Person"
+    ],
+    "spouse": [
+      "Person"
+    ],
+    "honorificSuffix": [
+      "Text"
+    ],
+    "nationality": [
+      "Country"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ],
+    "birthDate": [
+      "Date"
+    ],
+    "owns": [
+      "Product",
+      "OwnershipInfo"
+    ],
+    "alumniOf": [
+      "EducationalOrganization",
+      "Organization"
+    ],
+    "weight": [
+      "Mass",
+      "QuantitativeValue"
+    ],
+    "faxNumber": [
+      "Text"
+    ],
+    "hasCredential": [
+      "EducationalOccupationalCredential"
+    ],
+    "follows": [
+      "Person"
+    ],
+    "familyName": [
+      "Text"
+    ],
+    "callSign": [
+      "Text"
+    ],
+    "hasCertification": [
+      "Certification"
+    ],
+    "brand": [
+      "Brand",
+      "Organization"
+    ],
+    "knowsLanguage": [
+      "Text",
+      "Language"
+    ],
+    "hasOfferCatalog": [
+      "OfferCatalog"
+    ],
+    "honorificPrefix": [
+      "Text"
+    ],
+    "deathPlace": [
+      "Place"
+    ],
+    "homeLocation": [
+      "ContactPoint",
+      "Place"
+    ]
+  },
+  "CreativeWork": {
+    "hasPart": [
+      "CreativeWork"
+    ],
+    "award": [
+      "Text"
+    ],
+    "accessModeSufficient": [
+      "ItemList"
+    ],
+    "reviews": [
+      "Review"
+    ],
+    "dateModified": [
+      "Date",
+      "DateTime"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "contentLocation": [
+      "Place"
+    ],
+    "review": [
+      "Review"
+    ],
+    "contentRating": [
+      "Rating",
+      "Text"
+    ],
+    "accessibilityControl": [
+      "Text"
+    ],
+    "releasedEvent": [
+      "PublicationEvent"
+    ],
+    "contributor": [
+      "Organization",
+      "Person"
+    ],
+    "educationalAlignment": [
+      "AlignmentObject"
+    ],
+    "translator": [
+      "Organization",
+      "Person"
+    ],
+    "about": [
+      "Thing"
+    ],
+    "copyrightNotice": [
+      "Text"
+    ],
+    "typicalAgeRange": [
+      "Text"
+    ],
+    "keywords": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "publishingPrinciples": [
+      "URL",
+      "CreativeWork"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "encodings": [
+      "MediaObject"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "isPartOf": [
+      "URL",
+      "CreativeWork"
+    ],
+    "encoding": [
+      "MediaObject"
+    ],
+    "video": [
+      "Clip",
+      "VideoObject"
+    ],
+    "thumbnail": [
+      "ImageObject"
+    ],
+    "discussionUrl": [
+      "URL"
+    ],
+    "interactivityType": [
+      "Text"
+    ],
+    "timeRequired": [
+      "Duration"
+    ],
+    "text": [
+      "Text"
+    ],
+    "isBasedOn": [
+      "CreativeWork",
+      "Product",
+      "URL"
+    ],
+    "awards": [
+      "Text"
+    ],
+    "interactionStatistic": [
+      "InteractionCounter"
+    ],
+    "conditionsOfAccess": [
+      "Text"
+    ],
+    "temporalCoverage": [
+      "URL",
+      "Text",
+      "DateTime"
+    ],
+    "version": [
+      "Number",
+      "Text"
+    ],
+    "encodingFormat": [
+      "URL",
+      "Text"
+    ],
+    "publication": [
+      "PublicationEvent"
+    ],
+    "isFamilyFriendly": [
+      "Boolean"
+    ],
+    "materialExtent": [
+      "QuantitativeValue",
+      "Text"
+    ],
+    "headline": [
+      "Text"
+    ],
+    "accessMode": [
+      "Text"
+    ],
+    "accountablePerson": [
+      "Person"
+    ],
+    "accessibilitySummary": [
+      "Text"
+    ],
+    "educationalUse": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "workExample": [
+      "CreativeWork"
+    ],
+    "editor": [
+      "Person"
+    ],
+    "schemaVersion": [
+      "URL",
+      "Text"
+    ],
+    "size": [
+      "Text",
+      "DefinedTerm",
+      "SizeSpecification",
+      "QuantitativeValue"
+    ],
+    "assesses": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "audio": [
+      "MusicRecording",
+      "AudioObject",
+      "Clip"
+    ],
+    "associatedMedia": [
+      "MediaObject"
+    ],
+    "author": [
+      "Organization",
+      "Person"
+    ],
+    "mentions": [
+      "Thing"
+    ],
+    "fileFormat": [
+      "Text",
+      "URL"
+    ],
+    "spatialCoverage": [
+      "Place"
+    ],
+    "wordCount": [
+      "Integer"
+    ],
+    "isAccessibleForFree": [
+      "Boolean"
+    ],
+    "contentReferenceTime": [
+      "DateTime"
+    ],
+    "position": [
+      "Text",
+      "Integer"
+    ],
+    "exampleOfWork": [
+      "CreativeWork"
+    ],
+    "datePublished": [
+      "Date",
+      "DateTime"
+    ],
+    "material": [
+      "Product",
+      "Text",
+      "URL"
+    ],
+    "producer": [
+      "Organization",
+      "Person"
+    ],
+    "abstract": [
+      "Text"
+    ],
+    "acquireLicensePage": [
+      "URL",
+      "CreativeWork"
+    ],
+    "usageInfo": [
+      "URL",
+      "CreativeWork"
+    ],
+    "expires": [
+      "DateTime",
+      "Date"
+    ],
+    "mainEntity": [
+      "Thing"
+    ],
+    "copyrightHolder": [
+      "Organization",
+      "Person"
+    ],
+    "alternativeHeadline": [
+      "Text"
+    ],
+    "creator": [
+      "Organization",
+      "Person"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "teaches": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "educationalLevel": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "digitalSourceType": [
+      "IPTCDigitalSourceEnumeration"
+    ],
+    "recordedAt": [
+      "Event"
+    ],
+    "learningResourceType": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "workTranslation": [
+      "CreativeWork"
+    ],
+    "isBasedOnUrl": [
+      "CreativeWork",
+      "Product",
+      "URL"
+    ],
+    "publisherImprint": [
+      "Organization"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ],
+    "creativeWorkStatus": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "audience": [
+      "Audience"
+    ],
+    "thumbnailUrl": [
+      "URL"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ],
+    "creditText": [
+      "Text"
+    ],
+    "copyrightYear": [
+      "Number"
+    ],
+    "translationOfWork": [
+      "CreativeWork"
+    ],
+    "sourceOrganization": [
+      "Organization"
+    ],
+    "locationCreated": [
+      "Place"
+    ],
+    "accessibilityAPI": [
+      "Text"
+    ],
+    "correction": [
+      "URL",
+      "Text",
+      "CorrectionComment"
+    ],
+    "sdDatePublished": [
+      "Date"
+    ],
+    "character": [
+      "Person"
+    ],
+    "archivedAt": [
+      "WebPage",
+      "URL"
+    ],
+    "spatial": [
+      "Place"
+    ],
+    "accessibilityFeature": [
+      "Text"
+    ],
+    "sdPublisher": [
+      "Organization",
+      "Person"
+    ],
+    "sdLicense": [
+      "CreativeWork",
+      "URL"
+    ],
+    "license": [
+      "CreativeWork",
+      "URL"
+    ],
+    "editEIDR": [
+      "Text",
+      "URL"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "dateCreated": [
+      "Date",
+      "DateTime"
+    ],
+    "accessibilityHazard": [
+      "Text"
+    ],
+    "publisher": [
+      "Organization",
+      "Person"
+    ],
+    "citation": [
+      "CreativeWork",
+      "Text"
+    ],
+    "genre": [
+      "Text",
+      "URL"
+    ],
+    "maintainer": [
+      "Organization",
+      "Person"
+    ],
+    "pattern": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "temporal": [
+      "Text",
+      "DateTime"
+    ],
+    "comment": [
+      "Comment"
+    ],
+    "commentCount": [
+      "Integer"
+    ],
+    "interpretedAsClaim": [
+      "Claim"
+    ]
+  },
+  "HowToDirection": {
+    "totalTime": [
+      "Duration"
+    ],
+    "beforeMedia": [
+      "MediaObject",
+      "URL"
+    ],
+    "tool": [
+      "HowToTool",
+      "Text"
+    ],
+    "performTime": [
+      "Duration"
+    ],
+    "supply": [
+      "HowToSupply",
+      "Text"
+    ],
+    "duringMedia": [
+      "URL",
+      "MediaObject"
+    ],
+    "prepTime": [
+      "Duration"
+    ],
+    "afterMedia": [
+      "MediaObject",
+      "URL"
+    ]
+  },
+  "HowTo": {
+    "totalTime": [
+      "Duration"
+    ],
+    "step": [
+      "CreativeWork",
+      "Text",
+      "HowToSection",
+      "HowToStep"
+    ],
+    "tool": [
+      "HowToTool",
+      "Text"
+    ],
+    "performTime": [
+      "Duration"
+    ],
+    "supply": [
+      "HowToSupply",
+      "Text"
+    ],
+    "prepTime": [
+      "Duration"
+    ],
+    "steps": [
+      "Text",
+      "ItemList",
+      "CreativeWork"
+    ],
+    "estimatedCost": [
+      "MonetaryAmount",
+      "Text"
+    ],
+    "yield": [
+      "QuantitativeValue",
+      "Text"
+    ]
+  },
+  "MedicalDevice": {
+    "preOp": [
+      "Text"
+    ],
+    "postOp": [
+      "Text"
+    ],
+    "contraindication": [
+      "Text",
+      "MedicalContraindication"
+    ],
+    "seriousAdverseOutcome": [
+      "MedicalEntity"
+    ],
+    "procedure": [
+      "Text"
+    ],
+    "adverseOutcome": [
+      "MedicalEntity"
+    ]
+  },
+  "UnitPriceSpecification": {
+    "billingIncrement": [
+      "Number"
+    ],
+    "priceType": [
+      "PriceTypeEnumeration",
+      "Text"
+    ],
+    "unitText": [
+      "Text"
+    ],
+    "referenceQuantity": [
+      "QuantitativeValue"
+    ],
+    "billingDuration": [
+      "Duration",
+      "Number",
+      "QuantitativeValue"
+    ],
+    "unitCode": [
+      "Text",
+      "URL"
+    ],
+    "billingStart": [
+      "Number"
+    ],
+    "priceComponentType": [
+      "PriceComponentTypeEnumeration"
+    ]
+  },
+  "BroadcastService": {
+    "broadcastAffiliateOf": [
+      "Organization"
+    ],
+    "area": [
+      "Place"
+    ],
+    "broadcastTimezone": [
+      "Text"
+    ],
+    "broadcastDisplayName": [
+      "Text"
+    ],
+    "parentService": [
+      "BroadcastService"
+    ],
+    "broadcastFrequency": [
+      "BroadcastFrequencySpecification",
+      "Text"
+    ],
+    "hasBroadcastChannel": [
+      "BroadcastChannel"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ],
+    "videoFormat": [
+      "Text"
+    ],
+    "broadcaster": [
+      "Organization"
+    ],
+    "callSign": [
+      "Text"
+    ]
+  },
+  "Accommodation": {
+    "permittedUsage": [
+      "Text"
+    ],
+    "floorLevel": [
+      "Text"
+    ],
+    "yearBuilt": [
+      "Number"
+    ],
+    "accommodationFloorPlan": [
+      "FloorPlan"
+    ],
+    "numberOfFullBathrooms": [
+      "Number"
+    ],
+    "occupancy": [
+      "QuantitativeValue"
+    ],
+    "leaseLength": [
+      "Duration",
+      "QuantitativeValue"
+    ],
+    "numberOfPartialBathrooms": [
+      "Number"
+    ],
+    "tourBookingPage": [
+      "URL"
+    ],
+    "floorSize": [
+      "QuantitativeValue"
+    ],
+    "numberOfBedrooms": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "numberOfBathroomsTotal": [
+      "Integer"
+    ],
+    "amenityFeature": [
+      "LocationFeatureSpecification"
+    ],
+    "petsAllowed": [
+      "Boolean",
+      "Text"
+    ],
+    "accommodationCategory": [
+      "Text"
+    ],
+    "bed": [
+      "Text",
+      "BedDetails",
+      "BedType"
+    ]
+  },
+  "NewsArticle": {
+    "printColumn": [
+      "Text"
+    ],
+    "printSection": [
+      "Text"
+    ],
+    "printPage": [
+      "Text"
+    ],
+    "printEdition": [
+      "Text"
+    ],
+    "dateline": [
+      "Text"
+    ]
+  },
+  "Product": {
+    "color": [
+      "Text"
+    ],
+    "award": [
+      "Text"
+    ],
+    "gtin8": [
+      "Text"
+    ],
+    "isRelatedTo": [
+      "Service",
+      "Product"
+    ],
+    "asin": [
+      "Text",
+      "URL"
+    ],
+    "reviews": [
+      "Review"
+    ],
+    "hasEnergyConsumptionDetails": [
+      "EnergyConsumptionDetails"
+    ],
+    "manufacturer": [
+      "Organization"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "review": [
+      "Review"
+    ],
+    "countryOfAssembly": [
+      "Text"
+    ],
+    "mobileUrl": [
+      "Text"
+    ],
+    "countryOfLastProcessing": [
+      "Text"
+    ],
+    "keywords": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "colorSwatch": [
+      "URL",
+      "ImageObject"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "awards": [
+      "Text"
+    ],
+    "inProductGroupWithID": [
+      "Text"
+    ],
+    "isFamilyFriendly": [
+      "Boolean"
+    ],
+    "mpn": [
+      "Text"
+    ],
+    "productionDate": [
+      "Date"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "gtin12": [
+      "Text"
+    ],
+    "size": [
+      "Text",
+      "DefinedTerm",
+      "SizeSpecification",
+      "QuantitativeValue"
+    ],
+    "gtin13": [
+      "Text"
+    ],
+    "isVariantOf": [
+      "ProductModel",
+      "ProductGroup"
+    ],
+    "purchaseDate": [
+      "Date"
+    ],
+    "isAccessoryOrSparePartFor": [
+      "Product"
+    ],
+    "hasMerchantReturnPolicy": [
+      "MerchantReturnPolicy"
+    ],
+    "hasGS1DigitalLink": [
+      "URL"
+    ],
+    "material": [
+      "Product",
+      "Text",
+      "URL"
+    ],
+    "slogan": [
+      "Text"
+    ],
+    "gtin": [
+      "Text",
+      "URL"
+    ],
+    "width": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "hasAdultConsideration": [
+      "AdultOrientedEnumeration"
+    ],
+    "sku": [
+      "Text"
+    ],
+    "model": [
+      "ProductModel",
+      "Text"
+    ],
+    "negativeNotes": [
+      "ListItem",
+      "WebContent",
+      "ItemList",
+      "Text"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "audience": [
+      "Audience"
+    ],
+    "gtin14": [
+      "Text"
+    ],
+    "depth": [
+      "QuantitativeValue",
+      "Distance"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "releaseDate": [
+      "Date"
+    ],
+    "productID": [
+      "Text"
+    ],
+    "weight": [
+      "Mass",
+      "QuantitativeValue"
+    ],
+    "nsn": [
+      "Text"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "itemCondition": [
+      "OfferItemCondition"
+    ],
+    "hasCertification": [
+      "Certification"
+    ],
+    "brand": [
+      "Brand",
+      "Organization"
+    ],
+    "positiveNotes": [
+      "ListItem",
+      "ItemList",
+      "WebContent",
+      "Text"
+    ],
+    "isSimilarTo": [
+      "Product",
+      "Service"
+    ],
+    "pattern": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "isConsumableFor": [
+      "Product"
+    ],
+    "hasMeasurement": [
+      "QuantitativeValue"
+    ]
+  },
+  "Organization": {
+    "member": [
+      "Organization",
+      "Person"
+    ],
+    "award": [
+      "Text"
+    ],
+    "isicV4": [
+      "Text"
+    ],
+    "agentInteractionStatistic": [
+      "InteractionCounter"
+    ],
+    "serviceArea": [
+      "Place",
+      "AdministrativeArea",
+      "GeoShape"
+    ],
+    "alumni": [
+      "Person"
+    ],
+    "diversityPolicy": [
+      "URL",
+      "CreativeWork"
+    ],
+    "reviews": [
+      "Review"
+    ],
+    "duns": [
+      "Text"
+    ],
+    "review": [
+      "Review"
+    ],
+    "members": [
+      "Organization",
+      "Person"
+    ],
+    "email": [
+      "Text"
+    ],
+    "keywords": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "founders": [
+      "Person"
+    ],
+    "publishingPrinciples": [
+      "URL",
+      "CreativeWork"
+    ],
+    "unnamedSourcesPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "memberOf": [
+      "ProgramMembership",
+      "MemberProgramTier",
+      "Organization"
+    ],
+    "dissolutionDate": [
+      "Date"
+    ],
+    "hasShippingService": [
+      "ShippingService"
+    ],
+    "skills": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "nonprofitStatus": [
+      "NonprofitType"
+    ],
+    "employee": [
+      "Person"
+    ],
+    "founder": [
+      "Person",
+      "Organization"
+    ],
+    "naics": [
+      "Text"
+    ],
+    "awards": [
+      "Text"
+    ],
+    "interactionStatistic": [
+      "InteractionCounter"
+    ],
+    "telephone": [
+      "Text"
+    ],
+    "legalRepresentative": [
+      "Person"
+    ],
+    "actionableFeedbackPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "event": [
+      "Event"
+    ],
+    "ownershipFundingInfo": [
+      "AboutPage",
+      "CreativeWork",
+      "Text",
+      "URL"
+    ],
+    "foundingDate": [
+      "Date"
+    ],
+    "legalName": [
+      "Text"
+    ],
+    "knowsAbout": [
+      "URL",
+      "Text",
+      "Thing"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "iso6523Code": [
+      "Text"
+    ],
+    "employees": [
+      "Person"
+    ],
+    "numberOfEmployees": [
+      "QuantitativeValue"
+    ],
+    "foundingLocation": [
+      "Place"
+    ],
+    "address": [
+      "Text",
+      "PostalAddress"
+    ],
+    "contactPoints": [
+      "ContactPoint"
+    ],
+    "events": [
+      "Event"
+    ],
+    "department": [
+      "Organization"
+    ],
+    "hasPOS": [
+      "Place"
+    ],
+    "globalLocationNumber": [
+      "Text"
+    ],
+    "leiCode": [
+      "Text"
+    ],
+    "taxID": [
+      "Text"
+    ],
+    "hasMerchantReturnPolicy": [
+      "MerchantReturnPolicy"
+    ],
+    "legalAddress": [
+      "PostalAddress"
+    ],
+    "correctionsPolicy": [
+      "URL",
+      "CreativeWork"
+    ],
+    "hasGS1DigitalLink": [
+      "URL"
+    ],
+    "makesOffer": [
+      "Offer"
+    ],
+    "parentOrganization": [
+      "Organization"
+    ],
+    "hasMemberProgram": [
+      "MemberProgram"
+    ],
+    "slogan": [
+      "Text"
+    ],
+    "contactPoint": [
+      "ContactPoint"
+    ],
+    "location": [
+      "VirtualLocation",
+      "PostalAddress",
+      "Place",
+      "Text"
+    ],
+    "vatID": [
+      "Text"
+    ],
+    "seeks": [
+      "Demand"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ],
+    "diversityStaffingReport": [
+      "Article",
+      "URL"
+    ],
+    "companyRegistration": [
+      "Certification"
+    ],
+    "subOrganization": [
+      "Organization"
+    ],
+    "owns": [
+      "Product",
+      "OwnershipInfo"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "acceptedPaymentMethod": [
+      "LoanOrCredit",
+      "Text",
+      "PaymentMethod"
+    ],
+    "faxNumber": [
+      "Text"
+    ],
+    "ethicsPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "hasCredential": [
+      "EducationalOccupationalCredential"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "hasCertification": [
+      "Certification"
+    ],
+    "brand": [
+      "Brand",
+      "Organization"
+    ],
+    "knowsLanguage": [
+      "Text",
+      "Language"
+    ],
+    "hasOfferCatalog": [
+      "OfferCatalog"
+    ]
+  },
+  "ProgramMembership": {
+    "member": [
+      "Organization",
+      "Person"
+    ],
+    "members": [
+      "Organization",
+      "Person"
+    ],
+    "membershipNumber": [
+      "Text"
+    ],
+    "program": [
+      "MemberProgram"
+    ],
+    "membershipPointsEarned": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "hostingOrganization": [
+      "Organization"
+    ],
+    "programName": [
+      "Text"
+    ]
+  },
+  "Invoice": {
+    "paymentMethodId": [
+      "Text"
+    ],
+    "minimumPaymentDue": [
+      "PriceSpecification",
+      "MonetaryAmount"
+    ],
+    "scheduledPaymentDate": [
+      "Date"
+    ],
+    "confirmationNumber": [
+      "Text"
+    ],
+    "paymentMethod": [
+      "Text",
+      "PaymentMethod"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "totalPaymentDue": [
+      "PriceSpecification",
+      "MonetaryAmount"
+    ],
+    "paymentDueDate": [
+      "Date",
+      "DateTime"
+    ],
+    "accountId": [
+      "Text"
+    ],
+    "broker": [
+      "Organization",
+      "Person"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "billingPeriod": [
+      "Duration"
+    ],
+    "customer": [
+      "Organization",
+      "Person"
+    ],
+    "paymentStatus": [
+      "PaymentStatusType",
+      "Text"
+    ],
+    "referencesOrder": [
+      "Order"
+    ],
+    "paymentDue": [
+      "DateTime"
+    ]
+  },
+  "Order": {
+    "paymentMethodId": [
+      "Text"
+    ],
+    "billingAddress": [
+      "PostalAddress"
+    ],
+    "confirmationNumber": [
+      "Text"
+    ],
+    "paymentMethod": [
+      "Text",
+      "PaymentMethod"
+    ],
+    "discountCurrency": [
+      "Text"
+    ],
+    "orderedItem": [
+      "Service",
+      "OrderItem",
+      "Product"
+    ],
+    "merchant": [
+      "Organization",
+      "Person"
+    ],
+    "seller": [
+      "Organization",
+      "Person"
+    ],
+    "partOfInvoice": [
+      "Invoice"
+    ],
+    "isGift": [
+      "Boolean"
+    ],
+    "orderDelivery": [
+      "ParcelDelivery"
+    ],
+    "discountCode": [
+      "Text"
+    ],
+    "paymentDueDate": [
+      "Date",
+      "DateTime"
+    ],
+    "broker": [
+      "Organization",
+      "Person"
+    ],
+    "discount": [
+      "Text",
+      "Number"
+    ],
+    "orderDate": [
+      "DateTime",
+      "Date"
+    ],
+    "acceptedOffer": [
+      "Offer"
+    ],
+    "customer": [
+      "Organization",
+      "Person"
+    ],
+    "paymentUrl": [
+      "URL"
+    ],
+    "orderNumber": [
+      "Text"
+    ],
+    "orderStatus": [
+      "OrderStatus"
+    ],
+    "paymentDue": [
+      "DateTime"
+    ]
+  },
+  "ParcelDelivery": {
+    "expectedArrivalUntil": [
+      "Date",
+      "DateTime"
+    ],
+    "deliveryStatus": [
+      "DeliveryEvent"
+    ],
+    "trackingNumber": [
+      "Text"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "carrier": [
+      "Organization"
+    ],
+    "hasDeliveryMethod": [
+      "DeliveryMethod"
+    ],
+    "expectedArrivalFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "trackingUrl": [
+      "URL"
+    ],
+    "partOfOrder": [
+      "Order"
+    ],
+    "originAddress": [
+      "PostalAddress"
+    ],
+    "deliveryAddress": [
+      "PostalAddress"
+    ],
+    "itemShipped": [
+      "Product"
+    ]
+  },
+  "Muscle": {
+    "nerve": [
+      "Nerve"
+    ],
+    "antagonist": [
+      "Muscle"
+    ],
+    "bloodSupply": [
+      "Vessel"
+    ],
+    "muscleAction": [
+      "Text"
+    ],
+    "insertion": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Service": {
+    "award": [
+      "Text"
+    ],
+    "isRelatedTo": [
+      "Service",
+      "Product"
+    ],
+    "serviceOutput": [
+      "Thing"
+    ],
+    "serviceArea": [
+      "Place",
+      "AdministrativeArea",
+      "GeoShape"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "review": [
+      "Review"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "termsOfService": [
+      "Text",
+      "URL"
+    ],
+    "providerMobility": [
+      "Text"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "produces": [
+      "Thing"
+    ],
+    "availableChannel": [
+      "ServiceChannel"
+    ],
+    "serviceType": [
+      "GovernmentBenefitsType",
+      "Text"
+    ],
+    "slogan": [
+      "Text"
+    ],
+    "broker": [
+      "Organization",
+      "Person"
+    ],
+    "serviceAudience": [
+      "Audience"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "audience": [
+      "Audience"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "hoursAvailable": [
+      "OpeningHoursSpecification"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "hasCertification": [
+      "Certification"
+    ],
+    "brand": [
+      "Brand",
+      "Organization"
+    ],
+    "hasOfferCatalog": [
+      "OfferCatalog"
+    ],
+    "isSimilarTo": [
+      "Product",
+      "Service"
+    ]
+  },
+  "DeliveryEvent": {
+    "availableFrom": [
+      "DateTime"
+    ],
+    "hasDeliveryMethod": [
+      "DeliveryMethod"
+    ],
+    "availableThrough": [
+      "DateTime"
+    ],
+    "accessCode": [
+      "Text"
+    ]
+  },
+  "Event": {
+    "superEvent": [
+      "Event"
+    ],
+    "performers": [
+      "Organization",
+      "Person"
+    ],
+    "subEvent": [
+      "Event"
+    ],
+    "eventStatus": [
+      "EventStatusType"
+    ],
+    "maximumPhysicalAttendeeCapacity": [
+      "Integer"
+    ],
+    "workFeatured": [
+      "CreativeWork"
+    ],
+    "remainingAttendeeCapacity": [
+      "Integer"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "review": [
+      "Review"
+    ],
+    "attendee": [
+      "Organization",
+      "Person"
+    ],
+    "contributor": [
+      "Organization",
+      "Person"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "translator": [
+      "Organization",
+      "Person"
+    ],
+    "performer": [
+      "Organization",
+      "Person"
+    ],
+    "maximumAttendeeCapacity": [
+      "Integer"
+    ],
+    "about": [
+      "Thing"
+    ],
+    "typicalAgeRange": [
+      "Text"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "keywords": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "recordedIn": [
+      "CreativeWork"
+    ],
+    "director": [
+      "Person"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "doorTime": [
+      "Time",
+      "DateTime"
+    ],
+    "isAccessibleForFree": [
+      "Boolean"
+    ],
+    "location": [
+      "VirtualLocation",
+      "PostalAddress",
+      "Place",
+      "Text"
+    ],
+    "previousStartDate": [
+      "Date"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "organizer": [
+      "Organization",
+      "Person"
+    ],
+    "workPerformed": [
+      "CreativeWork"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ],
+    "eventAttendanceMode": [
+      "EventAttendanceModeEnumeration"
+    ],
+    "audience": [
+      "Audience"
+    ],
+    "subEvents": [
+      "Event"
+    ],
+    "maximumVirtualAttendeeCapacity": [
+      "Integer"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ],
+    "attendees": [
+      "Organization",
+      "Person"
+    ],
+    "eventSchedule": [
+      "Schedule"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "composer": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "PaymentCard": {
+    "contactlessPayment": [
+      "Boolean"
+    ],
+    "floorLimit": [
+      "MonetaryAmount"
+    ],
+    "cashBack": [
+      "Number",
+      "Boolean"
+    ],
+    "monthlyMinimumRepaymentAmount": [
+      "Number",
+      "MonetaryAmount"
+    ]
+  },
+  "Occupation": {
+    "experienceRequirements": [
+      "OccupationalExperienceRequirements",
+      "Text"
+    ],
+    "responsibilities": [
+      "Text"
+    ],
+    "skills": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "occupationalCategory": [
+      "CategoryCode",
+      "Text"
+    ],
+    "qualifications": [
+      "EducationalOccupationalCredential",
+      "Text"
+    ],
+    "occupationLocation": [
+      "AdministrativeArea"
+    ],
+    "educationRequirements": [
+      "Text",
+      "EducationalOccupationalCredential"
+    ],
+    "estimatedSalary": [
+      "MonetaryAmount",
+      "MonetaryAmountDistribution",
+      "Number"
+    ]
+  },
+  "JobPosting": {
+    "experienceRequirements": [
+      "OccupationalExperienceRequirements",
+      "Text"
+    ],
+    "jobImmediateStart": [
+      "Boolean"
+    ],
+    "responsibilities": [
+      "Text"
+    ],
+    "jobStartDate": [
+      "Date",
+      "Text"
+    ],
+    "datePosted": [
+      "Date",
+      "DateTime"
+    ],
+    "applicationContact": [
+      "ContactPoint"
+    ],
+    "benefits": [
+      "Text"
+    ],
+    "skills": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "employerOverview": [
+      "Text"
+    ],
+    "jobBenefits": [
+      "Text"
+    ],
+    "directApply": [
+      "Boolean"
+    ],
+    "workHours": [
+      "Text"
+    ],
+    "hiringOrganization": [
+      "Organization",
+      "Person"
+    ],
+    "applicantLocationRequirements": [
+      "AdministrativeArea"
+    ],
+    "totalJobOpenings": [
+      "Integer"
+    ],
+    "eligibilityToWorkRequirement": [
+      "Text"
+    ],
+    "specialCommitments": [
+      "Text"
+    ],
+    "occupationalCategory": [
+      "CategoryCode",
+      "Text"
+    ],
+    "incentiveCompensation": [
+      "Text"
+    ],
+    "jobLocationType": [
+      "Text"
+    ],
+    "employmentUnit": [
+      "Organization"
+    ],
+    "employmentType": [
+      "Text"
+    ],
+    "qualifications": [
+      "EducationalOccupationalCredential",
+      "Text"
+    ],
+    "experienceInPlaceOfEducation": [
+      "Boolean"
+    ],
+    "relevantOccupation": [
+      "Occupation"
+    ],
+    "educationRequirements": [
+      "Text",
+      "EducationalOccupationalCredential"
+    ],
+    "estimatedSalary": [
+      "MonetaryAmount",
+      "MonetaryAmountDistribution",
+      "Number"
+    ],
+    "baseSalary": [
+      "PriceSpecification",
+      "MonetaryAmount",
+      "Number"
+    ],
+    "incentives": [
+      "Text"
+    ],
+    "industry": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "title": [
+      "Text"
+    ],
+    "salaryCurrency": [
+      "Text"
+    ],
+    "sensoryRequirement": [
+      "Text",
+      "URL",
+      "DefinedTerm"
+    ],
+    "jobLocation": [
+      "Place"
+    ],
+    "securityClearanceRequirement": [
+      "URL",
+      "Text"
+    ],
+    "physicalRequirement": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "MusicRelease": {
+    "catalogNumber": [
+      "Text"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "creditedTo": [
+      "Organization",
+      "Person"
+    ],
+    "musicReleaseFormat": [
+      "MusicReleaseFormatType"
+    ],
+    "recordLabel": [
+      "Organization"
+    ],
+    "releaseOf": [
+      "MusicAlbum"
+    ]
+  },
+  "GameServer": {
+    "game": [
+      "VideoGame"
+    ],
+    "playersOnline": [
+      "Integer"
+    ],
+    "serverStatus": [
+      "GameServerStatus"
+    ]
+  },
+  "FoodEstablishment": {
+    "menu": [
+      "Text",
+      "URL",
+      "Menu"
+    ],
+    "servesCuisine": [
+      "Text"
+    ],
+    "acceptsReservations": [
+      "Boolean",
+      "Text",
+      "URL"
+    ],
+    "starRating": [
+      "Rating"
+    ],
+    "hasMenu": [
+      "Menu",
+      "Text",
+      "URL"
+    ]
+  },
+  "Demand": {
+    "warranty": [
+      "WarrantyPromise"
+    ],
+    "gtin8": [
+      "Text"
+    ],
+    "asin": [
+      "Text",
+      "URL"
+    ],
+    "eligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "eligibleTransactionVolume": [
+      "PriceSpecification"
+    ],
+    "availability": [
+      "ItemAvailability"
+    ],
+    "businessFunction": [
+      "BusinessFunction"
+    ],
+    "inventoryLevel": [
+      "QuantitativeValue"
+    ],
+    "advanceBookingRequirement": [
+      "QuantitativeValue"
+    ],
+    "eligibleDuration": [
+      "QuantitativeValue"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "availableAtOrFrom": [
+      "Place"
+    ],
+    "seller": [
+      "Organization",
+      "Person"
+    ],
+    "itemOffered": [
+      "Service",
+      "AggregateOffer",
+      "CreativeWork",
+      "Event",
+      "MenuItem",
+      "Product",
+      "Trip"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "mpn": [
+      "Text"
+    ],
+    "gtin12": [
+      "Text"
+    ],
+    "ineligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "eligibleQuantity": [
+      "QuantitativeValue"
+    ],
+    "gtin13": [
+      "Text"
+    ],
+    "availabilityStarts": [
+      "Date",
+      "Time",
+      "DateTime"
+    ],
+    "eligibleCustomerType": [
+      "BusinessEntityType"
+    ],
+    "gtin": [
+      "Text",
+      "URL"
+    ],
+    "availabilityEnds": [
+      "Date",
+      "DateTime",
+      "Time"
+    ],
+    "priceSpecification": [
+      "PriceSpecification"
+    ],
+    "sku": [
+      "Text"
+    ],
+    "gtin14": [
+      "Text"
+    ],
+    "serialNumber": [
+      "Text"
+    ],
+    "availableDeliveryMethod": [
+      "DeliveryMethod"
+    ],
+    "acceptedPaymentMethod": [
+      "LoanOrCredit",
+      "Text",
+      "PaymentMethod"
+    ],
+    "includesObject": [
+      "TypeAndQuantityNode"
+    ],
+    "itemCondition": [
+      "OfferItemCondition"
+    ],
+    "deliveryLeadTime": [
+      "QuantitativeValue"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "Offer": {
+    "warranty": [
+      "WarrantyPromise"
+    ],
+    "gtin8": [
+      "Text"
+    ],
+    "asin": [
+      "Text",
+      "URL"
+    ],
+    "reviews": [
+      "Review"
+    ],
+    "eligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "eligibleTransactionVolume": [
+      "PriceSpecification"
+    ],
+    "review": [
+      "Review"
+    ],
+    "availability": [
+      "ItemAvailability"
+    ],
+    "checkoutPageURLTemplate": [
+      "Text"
+    ],
+    "businessFunction": [
+      "BusinessFunction"
+    ],
+    "inventoryLevel": [
+      "QuantitativeValue"
+    ],
+    "mobileUrl": [
+      "Text"
+    ],
+    "addOn": [
+      "Offer"
+    ],
+    "advanceBookingRequirement": [
+      "QuantitativeValue"
+    ],
+    "leaseLength": [
+      "Duration",
+      "QuantitativeValue"
+    ],
+    "eligibleDuration": [
+      "QuantitativeValue"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "priceValidUntil": [
+      "Date"
+    ],
+    "isFamilyFriendly": [
+      "Boolean"
+    ],
+    "availableAtOrFrom": [
+      "Place"
+    ],
+    "priceCurrency": [
+      "Text"
+    ],
+    "seller": [
+      "Organization",
+      "Person"
+    ],
+    "itemOffered": [
+      "Service",
+      "AggregateOffer",
+      "CreativeWork",
+      "Event",
+      "MenuItem",
+      "Product",
+      "Trip"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "mpn": [
+      "Text"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "gtin12": [
+      "Text"
+    ],
+    "ineligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "eligibleQuantity": [
+      "QuantitativeValue"
+    ],
+    "gtin13": [
+      "Text"
+    ],
+    "availabilityStarts": [
+      "Date",
+      "Time",
+      "DateTime"
+    ],
+    "eligibleCustomerType": [
+      "BusinessEntityType"
+    ],
+    "hasMerchantReturnPolicy": [
+      "MerchantReturnPolicy"
+    ],
+    "offeredBy": [
+      "Organization",
+      "Person"
+    ],
+    "hasGS1DigitalLink": [
+      "URL"
+    ],
+    "gtin": [
+      "Text",
+      "URL"
+    ],
+    "availabilityEnds": [
+      "Date",
+      "DateTime",
+      "Time"
+    ],
+    "priceSpecification": [
+      "PriceSpecification"
+    ],
+    "hasAdultConsideration": [
+      "AdultOrientedEnumeration"
+    ],
+    "sku": [
+      "Text"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "shippingDetails": [
+      "OfferShippingDetails"
+    ],
+    "price": [
+      "Text",
+      "Number"
+    ],
+    "gtin14": [
+      "Text"
+    ],
+    "serialNumber": [
+      "Text"
+    ],
+    "availableDeliveryMethod": [
+      "DeliveryMethod"
+    ],
+    "acceptedPaymentMethod": [
+      "LoanOrCredit",
+      "Text",
+      "PaymentMethod"
+    ],
+    "includesObject": [
+      "TypeAndQuantityNode"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "validForMemberTier": [
+      "MemberProgramTier"
+    ],
+    "itemCondition": [
+      "OfferItemCondition"
+    ],
+    "deliveryLeadTime": [
+      "QuantitativeValue"
+    ],
+    "hasMeasurement": [
+      "QuantitativeValue"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "Place": {
+    "isicV4": [
+      "Text"
+    ],
+    "branchCode": [
+      "Text"
+    ],
+    "reviews": [
+      "Review"
+    ],
+    "longitude": [
+      "Text",
+      "Number"
+    ],
+    "geoTouches": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "review": [
+      "Review"
+    ],
+    "geoCrosses": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "maximumAttendeeCapacity": [
+      "Integer"
+    ],
+    "keywords": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "tourBookingPage": [
+      "URL"
+    ],
+    "openingHoursSpecification": [
+      "OpeningHoursSpecification"
+    ],
+    "telephone": [
+      "Text"
+    ],
+    "containedInPlace": [
+      "Place"
+    ],
+    "geoIntersects": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "event": [
+      "Event"
+    ],
+    "containsPlace": [
+      "Place"
+    ],
+    "hasMap": [
+      "URL",
+      "Map"
+    ],
+    "map": [
+      "URL"
+    ],
+    "photos": [
+      "ImageObject",
+      "Photograph"
+    ],
+    "geoCovers": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "photo": [
+      "ImageObject",
+      "Photograph"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "address": [
+      "Text",
+      "PostalAddress"
+    ],
+    "events": [
+      "Event"
+    ],
+    "globalLocationNumber": [
+      "Text"
+    ],
+    "publicAccess": [
+      "Boolean"
+    ],
+    "isAccessibleForFree": [
+      "Boolean"
+    ],
+    "hasGS1DigitalLink": [
+      "URL"
+    ],
+    "slogan": [
+      "Text"
+    ],
+    "maps": [
+      "URL"
+    ],
+    "smokingAllowed": [
+      "Boolean"
+    ],
+    "geo": [
+      "GeoShape",
+      "GeoCoordinates"
+    ],
+    "geoWithin": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "amenityFeature": [
+      "LocationFeatureSpecification"
+    ],
+    "geoOverlaps": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "containedIn": [
+      "Place"
+    ],
+    "hasDriveThroughService": [
+      "Boolean"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "latitude": [
+      "Text",
+      "Number"
+    ],
+    "specialOpeningHoursSpecification": [
+      "OpeningHoursSpecification"
+    ],
+    "faxNumber": [
+      "Text"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ],
+    "hasCertification": [
+      "Certification"
+    ],
+    "geoContains": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoEquals": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoDisjoint": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoCoveredBy": [
+      "GeospatialGeometry",
+      "Place"
+    ]
+  },
+  "MusicGroup": {
+    "musicGroupMember": [
+      "Person"
+    ],
+    "tracks": [
+      "MusicRecording"
+    ],
+    "album": [
+      "MusicAlbum"
+    ],
+    "track": [
+      "MusicRecording",
+      "ItemList"
+    ],
+    "albums": [
+      "MusicAlbum"
+    ],
+    "genre": [
+      "Text",
+      "URL"
+    ]
+  },
+  "MedicalTest": {
+    "usedToDiagnose": [
+      "MedicalCondition"
+    ],
+    "normalRange": [
+      "Text",
+      "MedicalEnumeration"
+    ],
+    "affectedBy": [
+      "Drug"
+    ],
+    "signDetected": [
+      "MedicalSign"
+    ],
+    "usesDevice": [
+      "MedicalDevice"
+    ]
+  },
+  "CDCPMDRecord": {
+    "cvdCollectionDate": [
+      "Text",
+      "DateTime"
+    ],
+    "cvdNumVent": [
+      "Number"
+    ],
+    "datePosted": [
+      "Date",
+      "DateTime"
+    ],
+    "cvdNumVentUse": [
+      "Number"
+    ],
+    "cvdNumICUBeds": [
+      "Number"
+    ],
+    "cvdNumC19OverflowPats": [
+      "Number"
+    ],
+    "cvdNumBeds": [
+      "Number"
+    ],
+    "cvdFacilityCounty": [
+      "Text"
+    ],
+    "cvdFacilityId": [
+      "Text"
+    ],
+    "cvdNumC19OFMechVentPats": [
+      "Number"
+    ],
+    "cvdNumC19HospPats": [
+      "Number"
+    ],
+    "cvdNumBedsOcc": [
+      "Number"
+    ],
+    "cvdNumC19HOPats": [
+      "Number"
+    ],
+    "cvdNumICUBedsOcc": [
+      "Number"
+    ],
+    "cvdNumC19Died": [
+      "Number"
+    ],
+    "cvdNumC19MechVentPats": [
+      "Number"
+    ],
+    "cvdNumTotBeds": [
+      "Number"
+    ]
+  },
+  "MedicalSign": {
+    "identifyingTest": [
+      "MedicalTest"
+    ],
+    "identifyingExam": [
+      "PhysicalExam"
+    ]
+  },
+  "TypeAndQuantityNode": {
+    "amountOfThisGood": [
+      "Number"
+    ],
+    "businessFunction": [
+      "BusinessFunction"
+    ],
+    "unitText": [
+      "Text"
+    ],
+    "typeOfGood": [
+      "Product",
+      "Service"
+    ],
+    "unitCode": [
+      "Text",
+      "URL"
+    ]
+  },
+  "AggregateOffer": {
+    "highPrice": [
+      "Text",
+      "Number"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "lowPrice": [
+      "Text",
+      "Number"
+    ],
+    "offerCount": [
+      "Integer"
+    ]
+  },
+  "PerformAction": {
+    "entertainmentBusiness": [
+      "EntertainmentBusiness"
+    ]
+  },
+  "TrainTrip": {
+    "arrivalStation": [
+      "TrainStation"
+    ],
+    "departureStation": [
+      "TrainStation"
+    ],
+    "trainNumber": [
+      "Text"
+    ],
+    "departurePlatform": [
+      "Text"
+    ],
+    "trainName": [
+      "Text"
+    ],
+    "arrivalPlatform": [
+      "Text"
+    ]
+  },
+  "OfferShippingDetails": {
+    "deliveryTime": [
+      "ShippingDeliveryTime"
+    ],
+    "shippingRate": [
+      "ShippingRateSettings",
+      "MonetaryAmount"
+    ],
+    "shippingDestination": [
+      "DefinedRegion"
+    ],
+    "hasShippingService": [
+      "ShippingService"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "shippingOrigin": [
+      "DefinedRegion"
+    ],
+    "width": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "depth": [
+      "QuantitativeValue",
+      "Distance"
+    ],
+    "weight": [
+      "Mass",
+      "QuantitativeValue"
+    ],
+    "validForMemberTier": [
+      "MemberProgramTier"
+    ],
+    "doesNotShip": [
+      "Boolean"
+    ]
+  },
+  "DeliveryTimeSettings": {
+    "deliveryTime": [
+      "ShippingDeliveryTime"
+    ],
+    "shippingDestination": [
+      "DefinedRegion"
+    ],
+    "isUnlabelledFallback": [
+      "Boolean"
+    ]
+  },
+  "ArchiveComponent": {
+    "itemLocation": [
+      "PostalAddress",
+      "Place",
+      "Text"
+    ],
+    "holdingArchive": [
+      "ArchiveOrganization"
+    ]
+  },
+  "Vehicle": {
+    "fuelType": [
+      "QualitativeValue",
+      "URL",
+      "Text"
+    ],
+    "fuelConsumption": [
+      "QuantitativeValue"
+    ],
+    "mileageFromOdometer": [
+      "QuantitativeValue"
+    ],
+    "vehicleInteriorType": [
+      "Text"
+    ],
+    "fuelEfficiency": [
+      "QuantitativeValue"
+    ],
+    "vehicleModelDate": [
+      "Date"
+    ],
+    "cargoVolume": [
+      "QuantitativeValue"
+    ],
+    "vehicleSeatingCapacity": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "numberOfForwardGears": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "seatingCapacity": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "emissionsCO2": [
+      "Number"
+    ],
+    "productionDate": [
+      "Date"
+    ],
+    "steeringPosition": [
+      "SteeringPositionValue"
+    ],
+    "numberOfDoors": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "tongueWeight": [
+      "QuantitativeValue"
+    ],
+    "purchaseDate": [
+      "Date"
+    ],
+    "vehicleEngine": [
+      "EngineSpecification"
+    ],
+    "vehicleTransmission": [
+      "QualitativeValue",
+      "Text",
+      "URL"
+    ],
+    "payload": [
+      "QuantitativeValue"
+    ],
+    "vehicleIdentificationNumber": [
+      "Text"
+    ],
+    "dateVehicleFirstRegistered": [
+      "Date"
+    ],
+    "driveWheelConfiguration": [
+      "DriveWheelConfigurationValue",
+      "Text"
+    ],
+    "meetsEmissionStandard": [
+      "QualitativeValue",
+      "Text",
+      "URL"
+    ],
+    "vehicleSpecialUsage": [
+      "Text",
+      "CarUsageType"
+    ],
+    "fuelCapacity": [
+      "QuantitativeValue"
+    ],
+    "knownVehicleDamages": [
+      "Text"
+    ],
+    "trailerWeight": [
+      "QuantitativeValue"
+    ],
+    "weightTotal": [
+      "QuantitativeValue"
+    ],
+    "numberOfAirbags": [
+      "Text",
+      "Number"
+    ],
+    "vehicleConfiguration": [
+      "Text"
+    ],
+    "callSign": [
+      "Text"
+    ],
+    "accelerationTime": [
+      "QuantitativeValue"
+    ],
+    "numberOfAxles": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "modelDate": [
+      "Date"
+    ],
+    "bodyType": [
+      "QualitativeValue",
+      "Text",
+      "URL"
+    ],
+    "vehicleInteriorColor": [
+      "Text"
+    ],
+    "numberOfPreviousOwners": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "wheelbase": [
+      "QuantitativeValue"
+    ],
+    "speed": [
+      "QuantitativeValue"
+    ]
+  },
+  "EngineSpecification": {
+    "fuelType": [
+      "QualitativeValue",
+      "URL",
+      "Text"
+    ],
+    "enginePower": [
+      "QuantitativeValue"
+    ],
+    "engineType": [
+      "QualitativeValue",
+      "Text",
+      "URL"
+    ],
+    "torque": [
+      "QuantitativeValue"
+    ],
+    "engineDisplacement": [
+      "QuantitativeValue"
+    ]
+  },
+  "Observation": {
+    "marginOfError": [
+      "QuantitativeValue"
+    ],
+    "measuredProperty": [
+      "Property"
+    ],
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "measurementDenominator": [
+      "StatisticalVariable"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ],
+    "observationPeriod": [
+      "Text"
+    ],
+    "variableMeasured": [
+      "Property",
+      "StatisticalVariable",
+      "PropertyValue",
+      "Text"
+    ],
+    "observationDate": [
+      "DateTime"
+    ],
+    "observationAbout": [
+      "Place",
+      "Thing"
+    ],
+    "measurementQualifier": [
+      "Enumeration"
+    ]
+  },
+  "ComicIssue": {
+    "artist": [
+      "Person"
+    ],
+    "penciler": [
+      "Person"
+    ],
+    "variantCover": [
+      "Text"
+    ],
+    "letterer": [
+      "Person"
+    ],
+    "colorist": [
+      "Person"
+    ],
+    "inker": [
+      "Person"
+    ]
+  },
+  "VisualArtwork": {
+    "artist": [
+      "Person"
+    ],
+    "penciler": [
+      "Person"
+    ],
+    "artEdition": [
+      "Integer",
+      "Text"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "artMedium": [
+      "Text",
+      "URL"
+    ],
+    "surface": [
+      "URL",
+      "Text"
+    ],
+    "width": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "artworkSurface": [
+      "URL",
+      "Text"
+    ],
+    "letterer": [
+      "Person"
+    ],
+    "depth": [
+      "QuantitativeValue",
+      "Distance"
+    ],
+    "weight": [
+      "Mass",
+      "QuantitativeValue"
+    ],
+    "colorist": [
+      "Person"
+    ],
+    "inker": [
+      "Person"
+    ],
+    "artform": [
+      "Text",
+      "URL"
+    ]
+  },
+  "ComicStory": {
+    "artist": [
+      "Person"
+    ],
+    "penciler": [
+      "Person"
+    ],
+    "letterer": [
+      "Person"
+    ],
+    "colorist": [
+      "Person"
+    ],
+    "inker": [
+      "Person"
+    ]
+  },
+  "OrganizationRole": {
+    "numberedPosition": [
+      "Number"
+    ]
+  },
+  "FinancialIncentive": {
+    "incentivizedItem": [
+      "Product",
+      "DefinedTerm"
+    ],
+    "purchasePriceLimit": [
+      "MonetaryAmount"
+    ],
+    "incentiveStatus": [
+      "IncentiveStatus"
+    ],
+    "purchaseType": [
+      "PurchaseType"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "eligibleWithSupplier": [
+      "Organization"
+    ],
+    "qualifiedExpense": [
+      "IncentiveQualifiedExpenseType"
+    ],
+    "incentiveAmount": [
+      "QuantitativeValue",
+      "UnitPriceSpecification",
+      "LoanOrCredit"
+    ],
+    "incentiveType": [
+      "IncentiveType"
+    ],
+    "incomeLimit": [
+      "MonetaryAmount",
+      "Text"
+    ],
+    "publisher": [
+      "Organization",
+      "Person"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "Book": {
+    "bookEdition": [
+      "Text"
+    ],
+    "isbn": [
+      "Text"
+    ],
+    "bookFormat": [
+      "BookFormatType"
+    ],
+    "numberOfPages": [
+      "Integer"
+    ],
+    "abridged": [
+      "Boolean"
+    ],
+    "illustrator": [
+      "Person"
+    ]
+  },
+  "Thing": {
+    "image": [
+      "ImageObject",
+      "URL"
+    ],
+    "url": [
+      "URL"
+    ],
+    "alternateName": [
+      "Text"
+    ],
+    "potentialAction": [
+      "Action"
+    ],
+    "sameAs": [
+      "URL"
+    ],
+    "identifier": [
+      "PropertyValue",
+      "URL",
+      "Text"
+    ],
+    "additionalType": [
+      "Text",
+      "URL"
+    ],
+    "subjectOf": [
+      "CreativeWork",
+      "Event"
+    ],
+    "name": [
+      "Text"
+    ],
+    "description": [
+      "TextObject",
+      "Text"
+    ],
+    "disambiguatingDescription": [
+      "Text"
+    ],
+    "mainEntityOfPage": [
+      "URL",
+      "CreativeWork"
+    ]
+  },
+  "EducationalOccupationalProgram": {
+    "termDuration": [
+      "Duration"
+    ],
+    "numberOfCredits": [
+      "StructuredValue",
+      "Integer"
+    ],
+    "applicationStartDate": [
+      "Date"
+    ],
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "educationalCredentialAwarded": [
+      "EducationalOccupationalCredential",
+      "Text",
+      "URL"
+    ],
+    "dayOfWeek": [
+      "DayOfWeek"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "financialAidEligible": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "programPrerequisites": [
+      "EducationalOccupationalCredential",
+      "Text",
+      "AlignmentObject",
+      "Course"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "hasCourse": [
+      "Course"
+    ],
+    "occupationalCategory": [
+      "CategoryCode",
+      "Text"
+    ],
+    "typicalCreditsPerTerm": [
+      "Integer",
+      "StructuredValue"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "occupationalCredentialAwarded": [
+      "EducationalOccupationalCredential",
+      "Text",
+      "URL"
+    ],
+    "maximumEnrollment": [
+      "Integer"
+    ],
+    "timeToComplete": [
+      "Duration"
+    ],
+    "applicationDeadline": [
+      "Date",
+      "Text"
+    ],
+    "timeOfDay": [
+      "Text"
+    ],
+    "trainingSalary": [
+      "MonetaryAmountDistribution"
+    ],
+    "programType": [
+      "DefinedTerm",
+      "Text"
+    ],
+    "termsPerYear": [
+      "Number"
+    ],
+    "salaryUponCompletion": [
+      "MonetaryAmountDistribution"
+    ],
+    "educationalProgramMode": [
+      "Text",
+      "URL"
+    ]
+  },
+  "Drug": {
+    "isProprietary": [
+      "Boolean"
+    ],
+    "activeIngredient": [
+      "Text"
+    ],
+    "pregnancyWarning": [
+      "Text"
+    ],
+    "foodWarning": [
+      "Text"
+    ],
+    "relatedDrug": [
+      "Drug"
+    ],
+    "clinicalPharmacology": [
+      "Text"
+    ],
+    "alcoholWarning": [
+      "Text"
+    ],
+    "drugClass": [
+      "DrugClass"
+    ],
+    "dosageForm": [
+      "Text"
+    ],
+    "interactingDrug": [
+      "Drug"
+    ],
+    "availableStrength": [
+      "DrugStrength"
+    ],
+    "maximumIntake": [
+      "MaximumDoseSchedule"
+    ],
+    "rxcui": [
+      "Text"
+    ],
+    "administrationRoute": [
+      "Text"
+    ],
+    "prescriptionStatus": [
+      "Text",
+      "DrugPrescriptionStatus"
+    ],
+    "drugUnit": [
+      "Text"
+    ],
+    "legalStatus": [
+      "MedicalEnumeration",
+      "DrugLegalStatus",
+      "Text"
+    ],
+    "pregnancyCategory": [
+      "DrugPregnancyCategory"
+    ],
+    "warning": [
+      "Text",
+      "URL"
+    ],
+    "overdosage": [
+      "Text"
+    ],
+    "isAvailableGenerically": [
+      "Boolean"
+    ],
+    "breastfeedingWarning": [
+      "Text"
+    ],
+    "proprietaryName": [
+      "Text"
+    ],
+    "includedInHealthInsurancePlan": [
+      "HealthInsurancePlan"
+    ],
+    "labelDetails": [
+      "URL"
+    ],
+    "prescribingInfo": [
+      "URL"
+    ],
+    "doseSchedule": [
+      "DoseSchedule"
+    ],
+    "nonProprietaryName": [
+      "Text"
+    ],
+    "clincalPharmacology": [
+      "Text"
+    ],
+    "mechanismOfAction": [
+      "Text"
+    ]
+  },
+  "DietarySupplement": {
+    "isProprietary": [
+      "Boolean"
+    ],
+    "activeIngredient": [
+      "Text"
+    ],
+    "safetyConsideration": [
+      "Text"
+    ],
+    "recommendedIntake": [
+      "RecommendedDoseSchedule"
+    ],
+    "maximumIntake": [
+      "MaximumDoseSchedule"
+    ],
+    "legalStatus": [
+      "MedicalEnumeration",
+      "DrugLegalStatus",
+      "Text"
+    ],
+    "targetPopulation": [
+      "Text"
+    ],
+    "proprietaryName": [
+      "Text"
+    ],
+    "nonProprietaryName": [
+      "Text"
+    ],
+    "mechanismOfAction": [
+      "Text"
+    ]
+  },
+  "SoftwareApplication": {
+    "screenshot": [
+      "URL",
+      "ImageObject"
+    ],
+    "downloadUrl": [
+      "URL"
+    ],
+    "operatingSystem": [
+      "Text"
+    ],
+    "requirements": [
+      "URL",
+      "Text"
+    ],
+    "softwareHelp": [
+      "CreativeWork"
+    ],
+    "permissions": [
+      "Text"
+    ],
+    "installUrl": [
+      "URL"
+    ],
+    "applicationCategory": [
+      "URL",
+      "Text"
+    ],
+    "memoryRequirements": [
+      "URL",
+      "Text"
+    ],
+    "fileSize": [
+      "Text"
+    ],
+    "applicationSubCategory": [
+      "Text",
+      "URL"
+    ],
+    "softwareVersion": [
+      "Text"
+    ],
+    "applicationSuite": [
+      "Text"
+    ],
+    "storageRequirements": [
+      "Text",
+      "URL"
+    ],
+    "countriesSupported": [
+      "Text"
+    ],
+    "countriesNotSupported": [
+      "Text"
+    ],
+    "softwareRequirements": [
+      "Text",
+      "URL"
+    ],
+    "releaseNotes": [
+      "Text",
+      "URL"
+    ],
+    "processorRequirements": [
+      "Text"
+    ],
+    "supportingData": [
+      "DataFeed"
+    ],
+    "softwareAddOn": [
+      "SoftwareApplication"
+    ],
+    "availableOnDevice": [
+      "Text"
+    ],
+    "featureList": [
+      "URL",
+      "Text"
+    ],
+    "device": [
+      "Text"
+    ]
+  },
+  "MerchantReturnPolicy": {
+    "itemDefectReturnShippingFeesAmount": [
+      "MonetaryAmount"
+    ],
+    "applicableCountry": [
+      "Text",
+      "Country"
+    ],
+    "returnPolicyCountry": [
+      "Text",
+      "Country"
+    ],
+    "returnPolicySeasonalOverride": [
+      "MerchantReturnPolicySeasonalOverride"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "returnPolicyCategory": [
+      "MerchantReturnEnumeration"
+    ],
+    "merchantReturnLink": [
+      "URL"
+    ],
+    "customerRemorseReturnShippingFeesAmount": [
+      "MonetaryAmount"
+    ],
+    "returnMethod": [
+      "ReturnMethodEnumeration"
+    ],
+    "customerRemorseReturnLabelSource": [
+      "ReturnLabelSourceEnumeration"
+    ],
+    "returnFees": [
+      "ReturnFeesEnumeration"
+    ],
+    "itemDefectReturnLabelSource": [
+      "ReturnLabelSourceEnumeration"
+    ],
+    "inStoreReturnsOffered": [
+      "Boolean"
+    ],
+    "customerRemorseReturnFees": [
+      "ReturnFeesEnumeration"
+    ],
+    "merchantReturnDays": [
+      "Date",
+      "Integer",
+      "DateTime"
+    ],
+    "returnLabelSource": [
+      "ReturnLabelSourceEnumeration"
+    ],
+    "restockingFee": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "refundType": [
+      "RefundTypeEnumeration"
+    ],
+    "itemDefectReturnFees": [
+      "ReturnFeesEnumeration"
+    ],
+    "validForMemberTier": [
+      "MemberProgramTier"
+    ],
+    "itemCondition": [
+      "OfferItemCondition"
+    ],
+    "returnShippingFeesAmount": [
+      "MonetaryAmount"
+    ]
+  },
+  "MusicRecording": {
+    "isrcCode": [
+      "Text"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "recordingOf": [
+      "MusicComposition"
+    ],
+    "inAlbum": [
+      "MusicAlbum"
+    ],
+    "byArtist": [
+      "MusicGroup",
+      "Person"
+    ],
+    "inPlaylist": [
+      "MusicPlaylist"
+    ]
+  },
+  "ExercisePlan": {
+    "activityFrequency": [
+      "QuantitativeValue",
+      "Text"
+    ],
+    "additionalVariable": [
+      "Text"
+    ],
+    "exerciseType": [
+      "Text"
+    ],
+    "restPeriods": [
+      "QuantitativeValue",
+      "Text"
+    ],
+    "repetitions": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "activityDuration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "intensity": [
+      "QuantitativeValue",
+      "Text"
+    ],
+    "workload": [
+      "Energy",
+      "QuantitativeValue"
+    ]
+  },
+  "ProductGroup": {
+    "hasVariant": [
+      "Product"
+    ],
+    "variesBy": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "productGroupID": [
+      "Text"
+    ]
+  },
+  "SportsTeam": {
+    "coach": [
+      "Person"
+    ],
+    "gender": [
+      "GenderType",
+      "Text"
+    ],
+    "athlete": [
+      "Person"
+    ]
+  },
+  "LodgingReservation": {
+    "lodgingUnitType": [
+      "QualitativeValue",
+      "Text"
+    ],
+    "lodgingUnitDescription": [
+      "Text"
+    ],
+    "numChildren": [
+      "QuantitativeValue",
+      "Integer"
+    ],
+    "numAdults": [
+      "QuantitativeValue",
+      "Integer"
+    ],
+    "checkoutTime": [
+      "DateTime",
+      "Time"
+    ],
+    "checkinTime": [
+      "DateTime",
+      "Time"
+    ]
+  },
+  "ContactPoint": {
+    "serviceArea": [
+      "Place",
+      "AdministrativeArea",
+      "GeoShape"
+    ],
+    "email": [
+      "Text"
+    ],
+    "contactType": [
+      "Text"
+    ],
+    "contactOption": [
+      "ContactPointOption"
+    ],
+    "telephone": [
+      "Text"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "productSupported": [
+      "Text",
+      "Product"
+    ],
+    "availableLanguage": [
+      "Text",
+      "Language"
+    ],
+    "hoursAvailable": [
+      "OpeningHoursSpecification"
+    ],
+    "faxNumber": [
+      "Text"
+    ]
+  },
+  "EducationalOrganization": {
+    "alumni": [
+      "Person"
+    ]
+  },
+  "NewsMediaOrganization": {
+    "diversityPolicy": [
+      "URL",
+      "CreativeWork"
+    ],
+    "unnamedSourcesPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "actionableFeedbackPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "noBylinesPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "ownershipFundingInfo": [
+      "AboutPage",
+      "CreativeWork",
+      "Text",
+      "URL"
+    ],
+    "correctionsPolicy": [
+      "URL",
+      "CreativeWork"
+    ],
+    "verificationFactCheckingPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "masthead": [
+      "CreativeWork",
+      "URL"
+    ],
+    "diversityStaffingReport": [
+      "Article",
+      "URL"
+    ],
+    "missionCoveragePrioritiesPolicy": [
+      "CreativeWork",
+      "URL"
+    ],
+    "ethicsPolicy": [
+      "CreativeWork",
+      "URL"
+    ]
+  },
+  "SuperficialAnatomy": {
+    "relatedAnatomy": [
+      "AnatomicalStructure",
+      "AnatomicalSystem"
+    ],
+    "associatedPathophysiology": [
+      "Text"
+    ],
+    "relatedTherapy": [
+      "MedicalTherapy"
+    ],
+    "relatedCondition": [
+      "MedicalCondition"
+    ],
+    "significance": [
+      "Text"
+    ]
+  },
+  "MusicComposition": {
+    "musicCompositionForm": [
+      "Text"
+    ],
+    "lyricist": [
+      "Person"
+    ],
+    "musicArrangement": [
+      "MusicComposition"
+    ],
+    "iswcCode": [
+      "Text"
+    ],
+    "musicalKey": [
+      "Text"
+    ],
+    "recordedAs": [
+      "MusicRecording"
+    ],
+    "includedComposition": [
+      "MusicComposition"
+    ],
+    "firstPerformance": [
+      "Event"
+    ],
+    "lyrics": [
+      "CreativeWork"
+    ],
+    "composer": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "BioChemEntity": {
+    "taxonomicRange": [
+      "Taxon",
+      "Text",
+      "URL",
+      "DefinedTerm"
+    ],
+    "hasBioChemEntityPart": [
+      "BioChemEntity"
+    ],
+    "associatedDisease": [
+      "URL",
+      "PropertyValue",
+      "MedicalCondition"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "bioChemInteraction": [
+      "BioChemEntity"
+    ],
+    "isEncodedByBioChemEntity": [
+      "Gene"
+    ],
+    "isInvolvedInBiologicalProcess": [
+      "PropertyValue",
+      "DefinedTerm",
+      "URL"
+    ],
+    "hasMolecularFunction": [
+      "DefinedTerm",
+      "URL",
+      "PropertyValue"
+    ],
+    "biologicalRole": [
+      "DefinedTerm"
+    ],
+    "bioChemSimilarity": [
+      "BioChemEntity"
+    ],
+    "hasRepresentation": [
+      "PropertyValue",
+      "Text",
+      "URL"
+    ],
+    "isPartOfBioChemEntity": [
+      "BioChemEntity"
+    ],
+    "isLocatedInSubcellularLocation": [
+      "PropertyValue",
+      "URL",
+      "DefinedTerm"
+    ]
+  },
+  "ReplaceAction": {
+    "replacee": [
+      "Thing"
+    ],
+    "replacer": [
+      "Thing"
+    ]
+  },
+  "Flight": {
+    "flightNumber": [
+      "Text"
+    ],
+    "mealService": [
+      "Text"
+    ],
+    "estimatedFlightDuration": [
+      "Text",
+      "Duration"
+    ],
+    "webCheckinTime": [
+      "DateTime"
+    ],
+    "boardingPolicy": [
+      "BoardingPolicyType"
+    ],
+    "carrier": [
+      "Organization"
+    ],
+    "seller": [
+      "Organization",
+      "Person"
+    ],
+    "arrivalGate": [
+      "Text"
+    ],
+    "departureTerminal": [
+      "Text"
+    ],
+    "arrivalAirport": [
+      "Airport"
+    ],
+    "departureGate": [
+      "Text"
+    ],
+    "aircraft": [
+      "Vehicle",
+      "Text"
+    ],
+    "flightDistance": [
+      "Text",
+      "Distance"
+    ],
+    "arrivalTerminal": [
+      "Text"
+    ],
+    "departureAirport": [
+      "Airport"
+    ]
+  },
+  "Answer": {
+    "parentItem": [
+      "Comment",
+      "CreativeWork"
+    ],
+    "answerExplanation": [
+      "WebContent",
+      "Comment"
+    ]
+  },
+  "Question": {
+    "parentItem": [
+      "Comment",
+      "CreativeWork"
+    ],
+    "answerCount": [
+      "Integer"
+    ],
+    "suggestedAnswer": [
+      "ItemList",
+      "Answer"
+    ],
+    "eduQuestionType": [
+      "Text"
+    ],
+    "acceptedAnswer": [
+      "ItemList",
+      "Answer"
+    ]
+  },
+  "Comment": {
+    "parentItem": [
+      "Comment",
+      "CreativeWork"
+    ],
+    "upvoteCount": [
+      "Integer"
+    ],
+    "downvoteCount": [
+      "Integer"
+    ],
+    "sharedContent": [
+      "CreativeWork"
+    ]
+  },
+  "MedicalWebPage": {
+    "medicalAudience": [
+      "MedicalAudienceType",
+      "MedicalAudience"
+    ],
+    "aspect": [
+      "Text"
+    ]
+  },
+  "MedicalCode": {
+    "codingSystem": [
+      "Text"
+    ],
+    "codeValue": [
+      "Text"
+    ]
+  },
+  "Residence": {
+    "accommodationFloorPlan": [
+      "FloorPlan"
+    ]
+  },
+  "RentAction": {
+    "realEstateAgent": [
+      "RealEstateAgent"
+    ],
+    "landlord": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "Claim": {
+    "appearance": [
+      "CreativeWork"
+    ],
+    "firstAppearance": [
+      "CreativeWork"
+    ],
+    "claimInterpreter": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "PlanAction": {
+    "scheduledTime": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "InteractionCounter": {
+    "startTime": [
+      "DateTime",
+      "Time"
+    ],
+    "interactionService": [
+      "WebSite",
+      "SoftwareApplication"
+    ],
+    "userInteractionCount": [
+      "Integer"
+    ],
+    "location": [
+      "VirtualLocation",
+      "PostalAddress",
+      "Place",
+      "Text"
+    ],
+    "endTime": [
+      "Time",
+      "DateTime"
+    ],
+    "interactionType": [
+      "Action"
+    ]
+  },
+  "Action": {
+    "startTime": [
+      "DateTime",
+      "Time"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "actionStatus": [
+      "ActionStatusType"
+    ],
+    "object": [
+      "Thing"
+    ],
+    "actionProcess": [
+      "HowTo"
+    ],
+    "target": [
+      "URL",
+      "EntryPoint"
+    ],
+    "location": [
+      "VirtualLocation",
+      "PostalAddress",
+      "Place",
+      "Text"
+    ],
+    "instrument": [
+      "Thing"
+    ],
+    "endTime": [
+      "Time",
+      "DateTime"
+    ],
+    "result": [
+      "Thing"
+    ],
+    "error": [
+      "Thing"
+    ],
+    "participant": [
+      "Organization",
+      "Person"
+    ],
+    "agent": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "MediaObject": {
+    "startTime": [
+      "DateTime",
+      "Time"
+    ],
+    "bitrate": [
+      "Text"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "encodesCreativeWork": [
+      "CreativeWork"
+    ],
+    "contentUrl": [
+      "URL"
+    ],
+    "uploadDate": [
+      "Date",
+      "DateTime"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "encodingFormat": [
+      "URL",
+      "Text"
+    ],
+    "embedUrl": [
+      "URL"
+    ],
+    "requiresSubscription": [
+      "MediaSubscription",
+      "Boolean"
+    ],
+    "ineligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "playerType": [
+      "Text"
+    ],
+    "width": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "endTime": [
+      "Time",
+      "DateTime"
+    ],
+    "regionsAllowed": [
+      "Place"
+    ],
+    "contentSize": [
+      "Text"
+    ],
+    "sha256": [
+      "Text"
+    ],
+    "associatedArticle": [
+      "NewsArticle"
+    ],
+    "productionCompany": [
+      "Organization"
+    ],
+    "interpretedAsClaim": [
+      "Claim"
+    ]
+  },
+  "FoodEstablishmentReservation": {
+    "startTime": [
+      "DateTime",
+      "Time"
+    ],
+    "partySize": [
+      "Integer",
+      "QuantitativeValue"
+    ],
+    "endTime": [
+      "Time",
+      "DateTime"
+    ]
+  },
+  "Course": {
+    "numberOfCredits": [
+      "StructuredValue",
+      "Integer"
+    ],
+    "educationalCredentialAwarded": [
+      "EducationalOccupationalCredential",
+      "Text",
+      "URL"
+    ],
+    "hasCourseInstance": [
+      "CourseInstance"
+    ],
+    "financialAidEligible": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "syllabusSections": [
+      "Syllabus"
+    ],
+    "coursePrerequisites": [
+      "AlignmentObject",
+      "Course",
+      "Text"
+    ],
+    "occupationalCredentialAwarded": [
+      "EducationalOccupationalCredential",
+      "Text",
+      "URL"
+    ],
+    "courseCode": [
+      "Text"
+    ],
+    "availableLanguage": [
+      "Text",
+      "Language"
+    ],
+    "totalHistoricalEnrollment": [
+      "Integer"
+    ]
+  },
+  "NutritionInformation": {
+    "saturatedFatContent": [
+      "Mass"
+    ],
+    "unsaturatedFatContent": [
+      "Mass"
+    ],
+    "sodiumContent": [
+      "Mass"
+    ],
+    "fatContent": [
+      "Mass"
+    ],
+    "transFatContent": [
+      "Mass"
+    ],
+    "servingSize": [
+      "Text"
+    ],
+    "sugarContent": [
+      "Mass"
+    ],
+    "proteinContent": [
+      "Mass"
+    ],
+    "calories": [
+      "Energy"
+    ],
+    "carbohydrateContent": [
+      "Mass"
+    ],
+    "fiberContent": [
+      "Mass"
+    ],
+    "cholesterolContent": [
+      "Mass"
+    ]
+  },
+  "LinkRole": {
+    "linkRelationship": [
+      "Text"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ]
+  },
+  "Taxon": {
+    "taxonRank": [
+      "PropertyValue",
+      "URL",
+      "Text"
+    ],
+    "parentTaxon": [
+      "Taxon",
+      "Text",
+      "URL"
+    ],
+    "hasDefinedTerm": [
+      "DefinedTerm"
+    ],
+    "childTaxon": [
+      "Taxon",
+      "Text",
+      "URL"
+    ]
+  },
+  "MedicalCondition": {
+    "primaryPrevention": [
+      "MedicalTherapy"
+    ],
+    "signOrSymptom": [
+      "MedicalSignOrSymptom"
+    ],
+    "status": [
+      "MedicalStudyStatus",
+      "Text",
+      "EventStatusType"
+    ],
+    "naturalProgression": [
+      "Text"
+    ],
+    "stage": [
+      "MedicalConditionStage"
+    ],
+    "riskFactor": [
+      "MedicalRiskFactor"
+    ],
+    "secondaryPrevention": [
+      "MedicalTherapy"
+    ],
+    "possibleComplication": [
+      "Text"
+    ],
+    "expectedPrognosis": [
+      "Text"
+    ],
+    "possibleTreatment": [
+      "MedicalTherapy"
+    ],
+    "drug": [
+      "Drug"
+    ],
+    "associatedAnatomy": [
+      "AnatomicalStructure",
+      "SuperficialAnatomy",
+      "AnatomicalSystem"
+    ],
+    "epidemiology": [
+      "Text"
+    ],
+    "pathophysiology": [
+      "Text"
+    ],
+    "differentialDiagnosis": [
+      "DDxElement"
+    ],
+    "typicalTest": [
+      "MedicalTest"
+    ]
+  },
+  "FloorPlan": {
+    "numberOfFullBathrooms": [
+      "Number"
+    ],
+    "numberOfPartialBathrooms": [
+      "Number"
+    ],
+    "numberOfAvailableAccommodationUnits": [
+      "QuantitativeValue"
+    ],
+    "numberOfAccommodationUnits": [
+      "QuantitativeValue"
+    ],
+    "floorSize": [
+      "QuantitativeValue"
+    ],
+    "numberOfBedrooms": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "layoutImage": [
+      "URL",
+      "ImageObject"
+    ],
+    "numberOfBathroomsTotal": [
+      "Integer"
+    ],
+    "amenityFeature": [
+      "LocationFeatureSpecification"
+    ],
+    "petsAllowed": [
+      "Boolean",
+      "Text"
+    ],
+    "isPlanForApartment": [
+      "Accommodation"
+    ]
+  },
+  "PostalCodeRangeSpecification": {
+    "postalCodeEnd": [
+      "Text"
+    ],
+    "postalCodeBegin": [
+      "Text"
+    ]
+  },
+  "Legislation": {
+    "legislationResponsible": [
+      "Organization",
+      "Person"
+    ],
+    "legislationCommences": [
+      "Legislation"
+    ],
+    "legislationDate": [
+      "Date"
+    ],
+    "legislationCountersignedBy": [
+      "Organization",
+      "Person"
+    ],
+    "jurisdiction": [
+      "AdministrativeArea",
+      "Text"
+    ],
+    "legislationLegalForce": [
+      "LegalForceStatus"
+    ],
+    "legislationEnsuresImplementationOf": [
+      "Legislation"
+    ],
+    "legislationIdentifier": [
+      "URL",
+      "Text"
+    ],
+    "legislationChanges": [
+      "Legislation"
+    ],
+    "legislationPassedBy": [
+      "Organization",
+      "Person"
+    ],
+    "legislationDateOfApplicability": [
+      "Date"
+    ],
+    "legislationDateVersion": [
+      "Date"
+    ],
+    "legislationConsolidates": [
+      "Legislation"
+    ],
+    "legislationJurisdiction": [
+      "Text",
+      "AdministrativeArea"
+    ],
+    "legislationTransposes": [
+      "Legislation"
+    ],
+    "legislationApplies": [
+      "Legislation"
+    ],
+    "legislationAmends": [
+      "Legislation"
+    ],
+    "legislationCorrects": [
+      "Legislation"
+    ],
+    "legislationRepeals": [
+      "Legislation"
+    ],
+    "legislationType": [
+      "CategoryCode",
+      "Text"
+    ]
+  },
+  "MoneyTransfer": {
+    "beneficiaryBank": [
+      "Text",
+      "BankOrCreditUnion"
+    ],
+    "amount": [
+      "Number",
+      "MonetaryAmount"
+    ]
+  },
+  "SoftwareSourceCode": {
+    "targetProduct": [
+      "SoftwareApplication"
+    ],
+    "runtime": [
+      "Text"
+    ],
+    "runtimePlatform": [
+      "Text"
+    ],
+    "codeRepository": [
+      "URL"
+    ],
+    "sampleType": [
+      "Text"
+    ],
+    "programmingLanguage": [
+      "Text",
+      "ComputerLanguage"
+    ],
+    "codeSampleType": [
+      "Text"
+    ]
+  },
+  "GeoCoordinates": {
+    "longitude": [
+      "Text",
+      "Number"
+    ],
+    "address": [
+      "Text",
+      "PostalAddress"
+    ],
+    "postalCode": [
+      "Text"
+    ],
+    "latitude": [
+      "Text",
+      "Number"
+    ],
+    "addressCountry": [
+      "Text",
+      "Country"
+    ],
+    "elevation": [
+      "Text",
+      "Number"
+    ]
+  },
+  "Ticket": {
+    "issuedBy": [
+      "Organization"
+    ],
+    "ticketToken": [
+      "Text",
+      "URL"
+    ],
+    "ticketNumber": [
+      "Text"
+    ],
+    "totalPrice": [
+      "Text",
+      "Number",
+      "PriceSpecification"
+    ],
+    "priceCurrency": [
+      "Text"
+    ],
+    "underName": [
+      "Organization",
+      "Person"
+    ],
+    "dateIssued": [
+      "DateTime",
+      "Date"
+    ],
+    "ticketedSeat": [
+      "Seat"
+    ]
+  },
+  "Permit": {
+    "issuedBy": [
+      "Organization"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "issuedThrough": [
+      "Service"
+    ],
+    "validUntil": [
+      "Date"
+    ],
+    "validFor": [
+      "Duration"
+    ],
+    "validIn": [
+      "AdministrativeArea"
+    ],
+    "permitAudience": [
+      "Audience"
+    ]
+  },
+  "Certification": {
+    "issuedBy": [
+      "Organization"
+    ],
+    "about": [
+      "Thing"
+    ],
+    "auditDate": [
+      "Date",
+      "DateTime"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "certificationIdentification": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "datePublished": [
+      "Date",
+      "DateTime"
+    ],
+    "expires": [
+      "DateTime",
+      "Date"
+    ],
+    "certificationStatus": [
+      "CertificationStatusEnumeration"
+    ],
+    "certificationRating": [
+      "Rating"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "hasMeasurement": [
+      "QuantitativeValue"
+    ],
+    "validIn": [
+      "AdministrativeArea"
+    ]
+  },
+  "WinAction": {
+    "loser": [
+      "Person"
+    ]
+  },
+  "GeospatialGeometry": {
+    "geoTouches": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoCrosses": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "geoIntersects": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "geoCovers": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "geoWithin": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoOverlaps": [
+      "GeospatialGeometry",
+      "Place"
+    ],
+    "geoContains": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoEquals": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoDisjoint": [
+      "Place",
+      "GeospatialGeometry"
+    ],
+    "geoCoveredBy": [
+      "GeospatialGeometry",
+      "Place"
+    ]
+  },
+  "AnatomicalStructure": {
+    "subStructure": [
+      "AnatomicalStructure"
+    ],
+    "associatedPathophysiology": [
+      "Text"
+    ],
+    "diagram": [
+      "ImageObject"
+    ],
+    "relatedTherapy": [
+      "MedicalTherapy"
+    ],
+    "relatedCondition": [
+      "MedicalCondition"
+    ],
+    "connectedTo": [
+      "AnatomicalStructure"
+    ],
+    "partOfSystem": [
+      "AnatomicalSystem"
+    ],
+    "bodyLocation": [
+      "Text"
+    ]
+  },
+  "PostalAddress": {
+    "postOfficeBoxNumber": [
+      "Text"
+    ],
+    "streetAddress": [
+      "Text"
+    ],
+    "postalCode": [
+      "Text"
+    ],
+    "extendedAddress": [
+      "Text"
+    ],
+    "addressLocality": [
+      "Text"
+    ],
+    "addressCountry": [
+      "Text",
+      "Country"
+    ],
+    "addressRegion": [
+      "Text"
+    ]
+  },
+  "StatisticalVariable": {
+    "measuredProperty": [
+      "Property"
+    ],
+    "statType": [
+      "Text",
+      "Property",
+      "URL"
+    ],
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "measurementDenominator": [
+      "StatisticalVariable"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ],
+    "populationType": [
+      "Class"
+    ],
+    "measurementQualifier": [
+      "Enumeration"
+    ]
+  },
+  "QuantitativeValueDistribution": {
+    "percentile25": [
+      "Number"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "percentile10": [
+      "Number"
+    ],
+    "median": [
+      "Number"
+    ],
+    "percentile75": [
+      "Number"
+    ],
+    "percentile90": [
+      "Number"
+    ]
+  },
+  "DeliveryChargeSpecification": {
+    "eligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "areaServed": [
+      "AdministrativeArea",
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "ineligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "appliesToDeliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "ActionAccessSpecification": {
+    "eligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "requiresSubscription": [
+      "MediaSubscription",
+      "Boolean"
+    ],
+    "ineligibleRegion": [
+      "Place",
+      "GeoShape",
+      "Text"
+    ],
+    "availabilityStarts": [
+      "Date",
+      "Time",
+      "DateTime"
+    ],
+    "availabilityEnds": [
+      "Date",
+      "DateTime",
+      "Time"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "expectsAcceptanceOf": [
+      "Offer"
+    ]
+  },
+  "LoanOrCredit": {
+    "currency": [
+      "Text"
+    ],
+    "amount": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "renegotiableLoan": [
+      "Boolean"
+    ],
+    "gracePeriod": [
+      "Duration"
+    ],
+    "loanTerm": [
+      "QuantitativeValue"
+    ],
+    "requiredCollateral": [
+      "Thing",
+      "Text"
+    ],
+    "recourseLoan": [
+      "Boolean"
+    ],
+    "loanType": [
+      "URL",
+      "Text"
+    ],
+    "loanRepaymentForm": [
+      "RepaymentSpecification"
+    ]
+  },
+  "MonetaryAmountDistribution": {
+    "currency": [
+      "Text"
+    ]
+  },
+  "ExchangeRateSpecification": {
+    "currency": [
+      "Text"
+    ],
+    "currentExchangeRate": [
+      "UnitPriceSpecification"
+    ],
+    "exchangeRateSpread": [
+      "MonetaryAmount",
+      "Number"
+    ]
+  },
+  "MonetaryAmount": {
+    "currency": [
+      "Text"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "minValue": [
+      "Number"
+    ],
+    "value": [
+      "Text",
+      "Number",
+      "Boolean",
+      "StructuredValue"
+    ],
+    "maxValue": [
+      "Number"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "DatedMoneySpecification": {
+    "currency": [
+      "Text"
+    ],
+    "amount": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "DrugStrength": {
+    "activeIngredient": [
+      "Text"
+    ],
+    "strengthUnit": [
+      "Text"
+    ],
+    "maximumIntake": [
+      "MaximumDoseSchedule"
+    ],
+    "strengthValue": [
+      "Number"
+    ],
+    "availableIn": [
+      "AdministrativeArea"
+    ]
+  },
+  "Substance": {
+    "activeIngredient": [
+      "Text"
+    ],
+    "maximumIntake": [
+      "MaximumDoseSchedule"
+    ]
+  },
+  "PropertyValueSpecification": {
+    "valueMaxLength": [
+      "Number"
+    ],
+    "readonlyValue": [
+      "Boolean"
+    ],
+    "valueRequired": [
+      "Boolean"
+    ],
+    "valueMinLength": [
+      "Number"
+    ],
+    "minValue": [
+      "Number"
+    ],
+    "multipleValues": [
+      "Boolean"
+    ],
+    "defaultValue": [
+      "Thing",
+      "Text"
+    ],
+    "maxValue": [
+      "Number"
+    ],
+    "valueName": [
+      "Text"
+    ],
+    "stepValue": [
+      "Number"
+    ],
+    "valuePattern": [
+      "Text"
+    ]
+  },
+  "ConstraintNode": {
+    "numConstraints": [
+      "Integer"
+    ],
+    "constraintProperty": [
+      "Property",
+      "URL"
+    ]
+  },
+  "ChooseAction": {
+    "option": [
+      "Text",
+      "Thing"
+    ],
+    "actionOption": [
+      "Thing",
+      "Text"
+    ]
+  },
+  "Corporation": {
+    "tickerSymbol": [
+      "Text"
+    ]
+  },
+  "WebPage": {
+    "mainContentOfPage": [
+      "WebPageElement"
+    ],
+    "specialty": [
+      "Specialty"
+    ],
+    "significantLink": [
+      "URL"
+    ],
+    "relatedLink": [
+      "URL"
+    ],
+    "primaryImageOfPage": [
+      "ImageObject"
+    ],
+    "significantLinks": [
+      "URL"
+    ],
+    "breadcrumb": [
+      "BreadcrumbList",
+      "Text"
+    ],
+    "reviewedBy": [
+      "Organization",
+      "Person"
+    ],
+    "speakable": [
+      "SpeakableSpecification",
+      "URL"
+    ],
+    "lastReviewed": [
+      "Date"
+    ]
+  },
+  "TVSeries": {
+    "episodes": [
+      "Episode"
+    ],
+    "titleEIDR": [
+      "Text",
+      "URL"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "season": [
+      "CreativeWorkSeason",
+      "URL"
+    ],
+    "director": [
+      "Person"
+    ],
+    "numberOfSeasons": [
+      "Integer"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "episode": [
+      "Episode"
+    ],
+    "numberOfEpisodes": [
+      "Integer"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "containsSeason": [
+      "CreativeWorkSeason"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "seasons": [
+      "CreativeWorkSeason"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "VideoGameSeries": {
+    "episodes": [
+      "Episode"
+    ],
+    "cheatCode": [
+      "CreativeWork"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "season": [
+      "CreativeWorkSeason",
+      "URL"
+    ],
+    "characterAttribute": [
+      "Thing"
+    ],
+    "playMode": [
+      "GamePlayMode"
+    ],
+    "director": [
+      "Person"
+    ],
+    "numberOfSeasons": [
+      "Integer"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "gamePlatform": [
+      "URL",
+      "Thing",
+      "Text"
+    ],
+    "numberOfPlayers": [
+      "QuantitativeValue"
+    ],
+    "episode": [
+      "Episode"
+    ],
+    "gameItem": [
+      "Thing"
+    ],
+    "numberOfEpisodes": [
+      "Integer"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "gameLocation": [
+      "URL",
+      "Place",
+      "PostalAddress"
+    ],
+    "quest": [
+      "Thing"
+    ],
+    "containsSeason": [
+      "CreativeWorkSeason"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "seasons": [
+      "CreativeWorkSeason"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "RadioSeries": {
+    "episodes": [
+      "Episode"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "season": [
+      "CreativeWorkSeason",
+      "URL"
+    ],
+    "director": [
+      "Person"
+    ],
+    "numberOfSeasons": [
+      "Integer"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "episode": [
+      "Episode"
+    ],
+    "numberOfEpisodes": [
+      "Integer"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "containsSeason": [
+      "CreativeWorkSeason"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "seasons": [
+      "CreativeWorkSeason"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "CreativeWorkSeason": {
+    "episodes": [
+      "Episode"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "director": [
+      "Person"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "seasonNumber": [
+      "Text",
+      "Integer"
+    ],
+    "episode": [
+      "Episode"
+    ],
+    "partOfSeries": [
+      "CreativeWorkSeries"
+    ],
+    "numberOfEpisodes": [
+      "Integer"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "PriceSpecification": {
+    "eligibleTransactionVolume": [
+      "PriceSpecification"
+    ],
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "maxPrice": [
+      "Number"
+    ],
+    "priceCurrency": [
+      "Text"
+    ],
+    "eligibleQuantity": [
+      "QuantitativeValue"
+    ],
+    "membershipPointsEarned": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "minPrice": [
+      "Number"
+    ],
+    "valueAddedTaxIncluded": [
+      "Boolean"
+    ],
+    "price": [
+      "Text",
+      "Number"
+    ],
+    "validForMemberTier": [
+      "MemberProgramTier"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "ServiceChannel": {
+    "providesService": [
+      "Service"
+    ],
+    "servicePhone": [
+      "ContactPoint"
+    ],
+    "serviceUrl": [
+      "URL"
+    ],
+    "processingTime": [
+      "Duration"
+    ],
+    "servicePostalAddress": [
+      "PostalAddress"
+    ],
+    "availableLanguage": [
+      "Text",
+      "Language"
+    ],
+    "serviceLocation": [
+      "Place"
+    ],
+    "serviceSmsNumber": [
+      "ContactPoint"
+    ]
+  },
+  "ShippingConditions": {
+    "shippingRate": [
+      "ShippingRateSettings",
+      "MonetaryAmount"
+    ],
+    "shippingDestination": [
+      "DefinedRegion"
+    ],
+    "transitTime": [
+      "QuantitativeValue",
+      "ServicePeriod"
+    ],
+    "height": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "seasonalOverride": [
+      "OpeningHoursSpecification"
+    ],
+    "shippingOrigin": [
+      "DefinedRegion"
+    ],
+    "numItems": [
+      "QuantitativeValue"
+    ],
+    "width": [
+      "Distance",
+      "QuantitativeValue"
+    ],
+    "orderValue": [
+      "MonetaryAmount"
+    ],
+    "depth": [
+      "QuantitativeValue",
+      "Distance"
+    ],
+    "weight": [
+      "Mass",
+      "QuantitativeValue"
+    ],
+    "doesNotShip": [
+      "Boolean"
+    ]
+  },
+  "ShippingRateSettings": {
+    "shippingRate": [
+      "ShippingRateSettings",
+      "MonetaryAmount"
+    ],
+    "shippingDestination": [
+      "DefinedRegion"
+    ],
+    "weightPercentage": [
+      "Number"
+    ],
+    "isUnlabelledFallback": [
+      "Boolean"
+    ],
+    "freeShippingThreshold": [
+      "DeliveryChargeSpecification",
+      "MonetaryAmount"
+    ],
+    "orderPercentage": [
+      "Number"
+    ],
+    "doesNotShip": [
+      "Boolean"
+    ]
+  },
+  "HyperTocEntry": {
+    "utterances": [
+      "Text"
+    ],
+    "tocContinuation": [
+      "HyperTocEntry"
+    ],
+    "associatedMedia": [
+      "MediaObject"
+    ]
+  },
+  "CompoundPriceSpecification": {
+    "priceType": [
+      "PriceTypeEnumeration",
+      "Text"
+    ],
+    "priceComponent": [
+      "UnitPriceSpecification"
+    ]
+  },
+  "BroadcastEvent": {
+    "isLiveBroadcast": [
+      "Boolean"
+    ],
+    "subtitleLanguage": [
+      "Language",
+      "Text"
+    ],
+    "videoFormat": [
+      "Text"
+    ],
+    "broadcastOfEvent": [
+      "Event"
+    ]
+  },
+  "Joint": {
+    "biomechnicalClass": [
+      "Text"
+    ],
+    "structuralClass": [
+      "Text"
+    ],
+    "functionalClass": [
+      "Text",
+      "MedicalEntity"
+    ]
+  },
+  "DataFeedItem": {
+    "dateModified": [
+      "Date",
+      "DateTime"
+    ],
+    "dateDeleted": [
+      "Date",
+      "DateTime"
+    ],
+    "item": [
+      "Thing"
+    ],
+    "dateCreated": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "Patient": {
+    "diagnosis": [
+      "MedicalCondition"
+    ],
+    "healthCondition": [
+      "MedicalCondition"
+    ],
+    "drug": [
+      "Drug"
+    ]
+  },
+  "DDxElement": {
+    "diagnosis": [
+      "MedicalCondition"
+    ],
+    "distinguishingSign": [
+      "MedicalSignOrSymptom"
+    ]
+  },
+  "MenuItem": {
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "nutrition": [
+      "NutritionInformation"
+    ],
+    "suitableForDiet": [
+      "RestrictedDiet"
+    ],
+    "menuAddOn": [
+      "MenuItem",
+      "MenuSection"
+    ]
+  },
+  "Trip": {
+    "offers": [
+      "Demand",
+      "Offer"
+    ],
+    "tripOrigin": [
+      "Place"
+    ],
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "subTrip": [
+      "Trip"
+    ],
+    "departureTime": [
+      "Time",
+      "DateTime"
+    ],
+    "itinerary": [
+      "ItemList",
+      "Place"
+    ],
+    "arrivalTime": [
+      "Time",
+      "DateTime"
+    ],
+    "partOfTrip": [
+      "Trip"
+    ]
+  },
+  "SpecialAnnouncement": {
+    "travelBans": [
+      "WebContent",
+      "URL"
+    ],
+    "datePosted": [
+      "Date",
+      "DateTime"
+    ],
+    "webFeed": [
+      "URL",
+      "DataFeed"
+    ],
+    "publicTransportClosuresInfo": [
+      "WebContent",
+      "URL"
+    ],
+    "gettingTestedInfo": [
+      "URL",
+      "WebContent"
+    ],
+    "diseasePreventionInfo": [
+      "URL",
+      "WebContent"
+    ],
+    "quarantineGuidelines": [
+      "WebContent",
+      "URL"
+    ],
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "diseaseSpreadStatistics": [
+      "URL",
+      "Observation",
+      "Dataset",
+      "WebContent"
+    ],
+    "announcementLocation": [
+      "LocalBusiness",
+      "CivicStructure"
+    ],
+    "governmentBenefitsInfo": [
+      "GovernmentService"
+    ],
+    "newsUpdatesAndGuidelines": [
+      "WebContent",
+      "URL"
+    ],
+    "schoolClosuresInfo": [
+      "URL",
+      "WebContent"
+    ]
+  },
+  "Brand": {
+    "review": [
+      "Review"
+    ],
+    "slogan": [
+      "Text"
+    ],
+    "logo": [
+      "URL",
+      "ImageObject"
+    ],
+    "aggregateRating": [
+      "AggregateRating"
+    ]
+  },
+  "AnatomicalSystem": {
+    "associatedPathophysiology": [
+      "Text"
+    ],
+    "relatedTherapy": [
+      "MedicalTherapy"
+    ],
+    "relatedCondition": [
+      "MedicalCondition"
+    ],
+    "comprisedOf": [
+      "AnatomicalStructure",
+      "AnatomicalSystem"
+    ],
+    "relatedStructure": [
+      "AnatomicalStructure"
+    ]
+  },
+  "MedicalEntity": {
+    "relevantSpecialty": [
+      "MedicalSpecialty"
+    ],
+    "funding": [
+      "Grant"
+    ],
+    "study": [
+      "MedicalStudy"
+    ],
+    "recognizingAuthority": [
+      "Organization"
+    ],
+    "medicineSystem": [
+      "MedicineSystem"
+    ],
+    "code": [
+      "MedicalCode"
+    ],
+    "legalStatus": [
+      "MedicalEnumeration",
+      "DrugLegalStatus",
+      "Text"
+    ],
+    "guideline": [
+      "MedicalGuideline"
+    ]
+  },
+  "ExerciseAction": {
+    "exercisePlan": [
+      "ExercisePlan"
+    ],
+    "exerciseRelatedDiet": [
+      "Diet"
+    ],
+    "sportsActivityLocation": [
+      "SportsActivityLocation"
+    ],
+    "course": [
+      "Place"
+    ],
+    "exerciseType": [
+      "Text"
+    ],
+    "distance": [
+      "Distance"
+    ],
+    "opponent": [
+      "Person"
+    ],
+    "diet": [
+      "Diet"
+    ],
+    "fromLocation": [
+      "Place"
+    ],
+    "sportsEvent": [
+      "SportsEvent"
+    ],
+    "exerciseCourse": [
+      "Place"
+    ],
+    "sportsTeam": [
+      "SportsTeam"
+    ],
+    "toLocation": [
+      "Place"
+    ]
+  },
+  "BoatTrip": {
+    "departureBoatTerminal": [
+      "BoatTerminal"
+    ],
+    "arrivalBoatTerminal": [
+      "BoatTerminal"
+    ]
+  },
+  "RepaymentSpecification": {
+    "loanPaymentFrequency": [
+      "Number"
+    ],
+    "downPayment": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "numberOfLoanPayments": [
+      "Number"
+    ],
+    "loanPaymentAmount": [
+      "MonetaryAmount"
+    ],
+    "earlyPrepaymentPenalty": [
+      "MonetaryAmount"
+    ]
+  },
+  "CourseInstance": {
+    "instructor": [
+      "Person"
+    ],
+    "courseSchedule": [
+      "Schedule"
+    ],
+    "courseWorkload": [
+      "Text"
+    ],
+    "courseMode": [
+      "Text",
+      "URL"
+    ]
+  },
+  "Movie": {
+    "titleEIDR": [
+      "Text",
+      "URL"
+    ],
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "director": [
+      "Person"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "subtitleLanguage": [
+      "Language",
+      "Text"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "TVSeason": {
+    "titleEIDR": [
+      "Text",
+      "URL"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "partOfTVSeries": [
+      "TVSeries"
+    ]
+  },
+  "TVEpisode": {
+    "titleEIDR": [
+      "Text",
+      "URL"
+    ],
+    "countryOfOrigin": [
+      "Country"
+    ],
+    "subtitleLanguage": [
+      "Language",
+      "Text"
+    ],
+    "partOfTVSeries": [
+      "TVSeries"
+    ]
+  },
+  "MedicalStudy": {
+    "status": [
+      "MedicalStudyStatus",
+      "Text",
+      "EventStatusType"
+    ],
+    "studyLocation": [
+      "AdministrativeArea"
+    ],
+    "studySubject": [
+      "MedicalEntity"
+    ],
+    "healthCondition": [
+      "MedicalCondition"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ]
+  },
+  "MedicalProcedure": {
+    "status": [
+      "MedicalStudyStatus",
+      "Text",
+      "EventStatusType"
+    ],
+    "procedureType": [
+      "MedicalProcedureType"
+    ],
+    "preparation": [
+      "Text",
+      "MedicalEntity"
+    ],
+    "followup": [
+      "Text"
+    ],
+    "howPerformed": [
+      "Text"
+    ],
+    "bodyLocation": [
+      "Text"
+    ]
+  },
+  "EducationalAudience": {
+    "educationalRole": [
+      "Text"
+    ]
+  },
+  "Article": {
+    "pageStart": [
+      "Text",
+      "Integer"
+    ],
+    "wordCount": [
+      "Integer"
+    ],
+    "pagination": [
+      "Text"
+    ],
+    "pageEnd": [
+      "Text",
+      "Integer"
+    ],
+    "speakable": [
+      "SpeakableSpecification",
+      "URL"
+    ],
+    "backstory": [
+      "Text",
+      "CreativeWork"
+    ],
+    "articleSection": [
+      "Text"
+    ],
+    "articleBody": [
+      "Text"
+    ]
+  },
+  "PublicationVolume": {
+    "pageStart": [
+      "Text",
+      "Integer"
+    ],
+    "pagination": [
+      "Text"
+    ],
+    "pageEnd": [
+      "Text",
+      "Integer"
+    ],
+    "volumeNumber": [
+      "Integer",
+      "Text"
+    ]
+  },
+  "PublicationIssue": {
+    "pageStart": [
+      "Text",
+      "Integer"
+    ],
+    "pagination": [
+      "Text"
+    ],
+    "issueNumber": [
+      "Text",
+      "Integer"
+    ],
+    "pageEnd": [
+      "Text",
+      "Integer"
+    ]
+  },
+  "Chapter": {
+    "pageStart": [
+      "Text",
+      "Integer"
+    ],
+    "pagination": [
+      "Text"
+    ],
+    "pageEnd": [
+      "Text",
+      "Integer"
+    ]
+  },
+  "ItemList": {
+    "aggregateElement": [
+      "Thing"
+    ],
+    "itemListOrder": [
+      "Text",
+      "ItemListOrderType"
+    ],
+    "numberOfItems": [
+      "Integer"
+    ],
+    "itemListElement": [
+      "ListItem",
+      "Thing",
+      "Text"
+    ]
+  },
+  "MedicalTestPanel": {
+    "subTest": [
+      "MedicalTest"
+    ]
+  },
+  "PronounceableText": {
+    "textValue": [
+      "Text"
+    ],
+    "phoneticText": [
+      "Text"
+    ],
+    "speechToTextMarkup": [
+      "Text"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ]
+  },
+  "LearningResource": {
+    "educationalAlignment": [
+      "AlignmentObject"
+    ],
+    "educationalUse": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "assesses": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "teaches": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "educationalLevel": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "learningResourceType": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "competencyRequired": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ]
+  },
+  "GeoShape": {
+    "polygon": [
+      "Text"
+    ],
+    "address": [
+      "Text",
+      "PostalAddress"
+    ],
+    "postalCode": [
+      "Text"
+    ],
+    "box": [
+      "Text"
+    ],
+    "addressCountry": [
+      "Text",
+      "Country"
+    ],
+    "line": [
+      "Text"
+    ],
+    "elevation": [
+      "Text",
+      "Number"
+    ],
+    "circle": [
+      "Text"
+    ]
+  },
+  "Episode": {
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "director": [
+      "Person"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "episodeNumber": [
+      "Text",
+      "Integer"
+    ],
+    "partOfSeries": [
+      "CreativeWorkSeries"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "partOfSeason": [
+      "CreativeWorkSeason"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "ServicePeriod": {
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "cutoffTime": [
+      "Time"
+    ],
+    "businessDays": [
+      "DayOfWeek",
+      "OpeningHoursSpecification"
+    ]
+  },
+  "Audiobook": {
+    "duration": [
+      "QuantitativeValue",
+      "Duration"
+    ],
+    "readBy": [
+      "Person"
+    ]
+  },
+  "RealEstateListing": {
+    "datePosted": [
+      "Date",
+      "DateTime"
+    ],
+    "leaseLength": [
+      "Duration",
+      "QuantitativeValue"
+    ]
+  },
+  "SomeProducts": {
+    "inventoryLevel": [
+      "QuantitativeValue"
+    ]
+  },
+  "MemberProgramTier": {
+    "hasTierBenefit": [
+      "TierBenefitEnumeration"
+    ],
+    "membershipPointsEarned": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "hasTierRequirement": [
+      "CreditCard",
+      "MonetaryAmount",
+      "UnitPriceSpecification",
+      "Text"
+    ],
+    "isTierOf": [
+      "MemberProgram"
+    ]
+  },
+  "HealthPlanFormulary": {
+    "offersPrescriptionByMail": [
+      "Boolean"
+    ],
+    "healthPlanCostSharing": [
+      "Boolean"
+    ],
+    "healthPlanDrugTier": [
+      "Text"
+    ]
+  },
+  "VideoGame": {
+    "cheatCode": [
+      "CreativeWork"
+    ],
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "gameServer": [
+      "GameServer"
+    ],
+    "playMode": [
+      "GamePlayMode"
+    ],
+    "gameTip": [
+      "CreativeWork"
+    ],
+    "director": [
+      "Person"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "gamePlatform": [
+      "URL",
+      "Thing",
+      "Text"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "gameEdition": [
+      "Text"
+    ],
+    "actors": [
+      "Person"
+    ]
+  },
+  "Message": {
+    "dateReceived": [
+      "DateTime"
+    ],
+    "toRecipient": [
+      "Audience",
+      "Organization",
+      "ContactPoint",
+      "Person"
+    ],
+    "sender": [
+      "Person",
+      "Audience",
+      "Organization"
+    ],
+    "bccRecipient": [
+      "Organization",
+      "ContactPoint",
+      "Person"
+    ],
+    "ccRecipient": [
+      "Organization",
+      "ContactPoint",
+      "Person"
+    ],
+    "dateSent": [
+      "DateTime"
+    ],
+    "dateRead": [
+      "DateTime",
+      "Date"
+    ],
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ],
+    "messageAttachment": [
+      "CreativeWork"
+    ]
+  },
+  "ArchiveOrganization": {
+    "archiveHeld": [
+      "ArchiveComponent"
+    ]
+  },
+  "Gene": {
+    "encodesBioChemEntity": [
+      "BioChemEntity"
+    ],
+    "expressedIn": [
+      "AnatomicalStructure",
+      "DefinedTerm",
+      "BioChemEntity",
+      "AnatomicalSystem"
+    ],
+    "alternativeOf": [
+      "Gene"
+    ],
+    "hasBioPolymerSequence": [
+      "Text"
+    ]
+  },
+  "MovieSeries": {
+    "trailer": [
+      "VideoObject"
+    ],
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "director": [
+      "Person"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "actors": [
+      "Person"
+    ],
+    "productionCompany": [
+      "Organization"
+    ]
+  },
+  "CommunicateAction": {
+    "about": [
+      "Thing"
+    ],
+    "language": [
+      "Language"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ],
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "EducationalOccupationalCredential": {
+    "recognizedBy": [
+      "Organization"
+    ],
+    "credentialCategory": [
+      "Text",
+      "URL",
+      "DefinedTerm"
+    ],
+    "validFor": [
+      "Duration"
+    ],
+    "educationalLevel": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "competencyRequired": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ],
+    "validIn": [
+      "AdministrativeArea"
+    ]
+  },
+  "SpeakableSpecification": {
+    "xpath": [
+      "XPathType"
+    ],
+    "cssSelector": [
+      "CssSelectorType"
+    ]
+  },
+  "WebPageElement": {
+    "xpath": [
+      "XPathType"
+    ],
+    "cssSelector": [
+      "CssSelectorType"
+    ]
+  },
+  "LocalBusiness": {
+    "currenciesAccepted": [
+      "Text"
+    ],
+    "openingHours": [
+      "Text"
+    ],
+    "priceRange": [
+      "Text"
+    ],
+    "paymentAccepted": [
+      "Text"
+    ],
+    "branchOf": [
+      "Organization"
+    ]
+  },
+  "PerformanceRole": {
+    "characterName": [
+      "Text"
+    ]
+  },
+  "Collection": {
+    "collectionSize": [
+      "Integer"
+    ]
+  },
+  "LiveBlogPosting": {
+    "coverageEndTime": [
+      "DateTime"
+    ],
+    "liveBlogUpdate": [
+      "BlogPosting"
+    ],
+    "coverageStartTime": [
+      "DateTime"
+    ]
+  },
+  "Property": {
+    "supersededBy": [
+      "Enumeration",
+      "Class",
+      "Property"
+    ],
+    "domainIncludes": [
+      "Class"
+    ],
+    "inverseOf": [
+      "Property"
+    ],
+    "rangeIncludes": [
+      "Class"
+    ]
+  },
+  "Enumeration": {
+    "supersededBy": [
+      "Enumeration",
+      "Class",
+      "Property"
+    ]
+  },
+  "Class": {
+    "supersededBy": [
+      "Enumeration",
+      "Class",
+      "Property"
+    ]
+  },
+  "SolveMathAction": {
+    "eduQuestionType": [
+      "Text"
+    ]
+  },
+  "Dataset": {
+    "includedInDataCatalog": [
+      "DataCatalog"
+    ],
+    "issn": [
+      "Text"
+    ],
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "catalog": [
+      "DataCatalog"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ],
+    "variableMeasured": [
+      "Property",
+      "StatisticalVariable",
+      "PropertyValue",
+      "Text"
+    ],
+    "distribution": [
+      "DataDownload"
+    ],
+    "includedDataCatalog": [
+      "DataCatalog"
+    ],
+    "datasetTimeInterval": [
+      "DateTime"
+    ]
+  },
+  "QualitativeValue": {
+    "nonEqual": [
+      "QualitativeValue"
+    ],
+    "lesser": [
+      "QualitativeValue"
+    ],
+    "greaterOrEqual": [
+      "QualitativeValue"
+    ],
+    "equal": [
+      "QualitativeValue"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "greater": [
+      "QualitativeValue"
+    ],
+    "valueReference": [
+      "QualitativeValue",
+      "Text",
+      "DefinedTerm",
+      "MeasurementTypeEnumeration",
+      "Enumeration",
+      "PropertyValue",
+      "StructuredValue",
+      "QuantitativeValue"
+    ],
+    "lesserOrEqual": [
+      "QualitativeValue"
+    ]
+  },
+  "RentalCarReservation": {
+    "pickupLocation": [
+      "Place"
+    ],
+    "dropoffTime": [
+      "DateTime"
+    ],
+    "dropoffLocation": [
+      "Place"
+    ],
+    "pickupTime": [
+      "DateTime"
+    ]
+  },
+  "TaxiReservation": {
+    "pickupLocation": [
+      "Place"
+    ],
+    "partySize": [
+      "Integer",
+      "QuantitativeValue"
+    ],
+    "pickupTime": [
+      "DateTime"
+    ]
+  },
+  "QuantitativeValue": {
+    "unitText": [
+      "Text"
+    ],
+    "minValue": [
+      "Number"
+    ],
+    "value": [
+      "Text",
+      "Number",
+      "Boolean",
+      "StructuredValue"
+    ],
+    "additionalProperty": [
+      "PropertyValue"
+    ],
+    "maxValue": [
+      "Number"
+    ],
+    "valueReference": [
+      "QualitativeValue",
+      "Text",
+      "DefinedTerm",
+      "MeasurementTypeEnumeration",
+      "Enumeration",
+      "PropertyValue",
+      "StructuredValue",
+      "QuantitativeValue"
+    ],
+    "unitCode": [
+      "Text",
+      "URL"
+    ]
+  },
+  "PropertyValue": {
+    "unitText": [
+      "Text"
+    ],
+    "minValue": [
+      "Number"
+    ],
+    "value": [
+      "Text",
+      "Number",
+      "Boolean",
+      "StructuredValue"
+    ],
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "propertyID": [
+      "Text",
+      "URL"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ],
+    "maxValue": [
+      "Number"
+    ],
+    "valueReference": [
+      "QualitativeValue",
+      "Text",
+      "DefinedTerm",
+      "MeasurementTypeEnumeration",
+      "Enumeration",
+      "PropertyValue",
+      "StructuredValue",
+      "QuantitativeValue"
+    ],
+    "unitCode": [
+      "Text",
+      "URL"
+    ]
+  },
+  "Clip": {
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "director": [
+      "Person"
+    ],
+    "clipNumber": [
+      "Text",
+      "Integer"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "endOffset": [
+      "Number",
+      "HyperTocEntry"
+    ],
+    "partOfSeries": [
+      "CreativeWorkSeries"
+    ],
+    "startOffset": [
+      "Number",
+      "HyperTocEntry"
+    ],
+    "partOfEpisode": [
+      "Episode"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "partOfSeason": [
+      "CreativeWorkSeason"
+    ],
+    "actors": [
+      "Person"
+    ]
+  },
+  "VideoObject": {
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "caption": [
+      "MediaObject",
+      "Text"
+    ],
+    "videoQuality": [
+      "Text"
+    ],
+    "director": [
+      "Person"
+    ],
+    "directors": [
+      "Person"
+    ],
+    "transcript": [
+      "Text"
+    ],
+    "musicBy": [
+      "MusicGroup",
+      "Person"
+    ],
+    "videoFrameSize": [
+      "Text"
+    ],
+    "embeddedTextCaption": [
+      "Text"
+    ],
+    "actors": [
+      "Person"
+    ]
+  },
+  "PodcastSeries": {
+    "actor": [
+      "PerformingGroup",
+      "Person"
+    ],
+    "webFeed": [
+      "URL",
+      "DataFeed"
+    ]
+  },
+  "Recipe": {
+    "recipeCuisine": [
+      "Text"
+    ],
+    "recipeInstructions": [
+      "ItemList",
+      "CreativeWork",
+      "Text"
+    ],
+    "ingredients": [
+      "Text"
+    ],
+    "nutrition": [
+      "NutritionInformation"
+    ],
+    "recipeIngredient": [
+      "Text"
+    ],
+    "recipeCategory": [
+      "Text"
+    ],
+    "cookingMethod": [
+      "Text"
+    ],
+    "recipeYield": [
+      "QuantitativeValue",
+      "Text"
+    ],
+    "suitableForDiet": [
+      "RestrictedDiet"
+    ],
+    "cookTime": [
+      "Duration"
+    ]
+  },
+  "AudioObject": {
+    "caption": [
+      "MediaObject",
+      "Text"
+    ],
+    "transcript": [
+      "Text"
+    ],
+    "embeddedTextCaption": [
+      "Text"
+    ]
+  },
+  "ImageObject": {
+    "caption": [
+      "MediaObject",
+      "Text"
+    ],
+    "representativeOfPage": [
+      "Boolean"
+    ],
+    "embeddedTextCaption": [
+      "Text"
+    ],
+    "exifData": [
+      "PropertyValue",
+      "Text"
+    ]
+  },
+  "Airline": {
+    "boardingPolicy": [
+      "BoardingPolicyType"
+    ],
+    "iataCode": [
+      "Text"
+    ]
+  },
+  "UserComments": {
+    "discusses": [
+      "CreativeWork"
+    ],
+    "creator": [
+      "Organization",
+      "Person"
+    ],
+    "commentTime": [
+      "DateTime",
+      "Date"
+    ],
+    "commentText": [
+      "Text"
+    ],
+    "replyToUrl": [
+      "URL"
+    ]
+  },
+  "Apartment": {
+    "occupancy": [
+      "QuantitativeValue"
+    ],
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ]
+  },
+  "Suite": {
+    "occupancy": [
+      "QuantitativeValue"
+    ],
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "bed": [
+      "Text",
+      "BedDetails",
+      "BedType"
+    ]
+  },
+  "HotelRoom": {
+    "occupancy": [
+      "QuantitativeValue"
+    ],
+    "bed": [
+      "Text",
+      "BedDetails",
+      "BedType"
+    ]
+  },
+  "SingleFamilyResidence": {
+    "occupancy": [
+      "QuantitativeValue"
+    ],
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ]
+  },
+  "MedicalTrial": {
+    "trialDesign": [
+      "MedicalTrialDesign"
+    ]
+  },
+  "MediaSubscription": {
+    "authenticator": [
+      "Organization"
+    ],
+    "expectsAcceptanceOf": [
+      "Offer"
+    ]
+  },
+  "OrderItem": {
+    "orderItemNumber": [
+      "Text"
+    ],
+    "orderedItem": [
+      "Service",
+      "OrderItem",
+      "Product"
+    ],
+    "orderDelivery": [
+      "ParcelDelivery"
+    ],
+    "orderItemStatus": [
+      "OrderStatus"
+    ],
+    "orderQuantity": [
+      "Number",
+      "QuantitativeValue"
+    ]
+  },
+  "Blog": {
+    "blogPost": [
+      "BlogPosting"
+    ],
+    "blogPosts": [
+      "BlogPosting"
+    ],
+    "issn": [
+      "Text"
+    ]
+  },
+  "SizeSpecification": {
+    "suggestedGender": [
+      "GenderType",
+      "Text"
+    ],
+    "suggestedAge": [
+      "QuantitativeValue"
+    ],
+    "sizeSystem": [
+      "Text",
+      "SizeSystemEnumeration"
+    ],
+    "suggestedMeasurement": [
+      "QuantitativeValue"
+    ],
+    "hasMeasurement": [
+      "QuantitativeValue"
+    ],
+    "sizeGroup": [
+      "Text",
+      "SizeGroupEnumeration"
+    ]
+  },
+  "PeopleAudience": {
+    "suggestedGender": [
+      "GenderType",
+      "Text"
+    ],
+    "suggestedAge": [
+      "QuantitativeValue"
+    ],
+    "requiredMaxAge": [
+      "Integer"
+    ],
+    "requiredMinAge": [
+      "Integer"
+    ],
+    "healthCondition": [
+      "MedicalCondition"
+    ],
+    "suggestedMinAge": [
+      "Number"
+    ],
+    "suggestedMeasurement": [
+      "QuantitativeValue"
+    ],
+    "suggestedMaxAge": [
+      "Number"
+    ],
+    "requiredGender": [
+      "Text"
+    ]
+  },
+  "HealthPlanCostSharingSpecification": {
+    "healthPlanPharmacyCategory": [
+      "Text"
+    ],
+    "healthPlanCoinsuranceOption": [
+      "Text"
+    ],
+    "healthPlanCopayOption": [
+      "Text"
+    ],
+    "healthPlanCoinsuranceRate": [
+      "Number"
+    ],
+    "healthPlanCopay": [
+      "PriceSpecification"
+    ]
+  },
+  "ShippingDeliveryTime": {
+    "cutoffTime": [
+      "Time"
+    ],
+    "transitTime": [
+      "QuantitativeValue",
+      "ServicePeriod"
+    ],
+    "businessDays": [
+      "DayOfWeek",
+      "OpeningHoursSpecification"
+    ],
+    "handlingTime": [
+      "ServicePeriod",
+      "QuantitativeValue"
+    ]
+  },
+  "BusTrip": {
+    "arrivalBusStop": [
+      "BusStop",
+      "BusStation"
+    ],
+    "busNumber": [
+      "Text"
+    ],
+    "departureBusStop": [
+      "BusStop",
+      "BusStation"
+    ],
+    "busName": [
+      "Text"
+    ]
+  },
+  "Hospital": {
+    "healthcareReportingData": [
+      "CDCPMDRecord",
+      "Dataset"
+    ],
+    "medicalSpecialty": [
+      "MedicalSpecialty"
+    ],
+    "availableService": [
+      "MedicalProcedure",
+      "MedicalTest",
+      "MedicalTherapy"
+    ]
+  },
+  "Reservation": {
+    "provider": [
+      "Organization",
+      "Person"
+    ],
+    "totalPrice": [
+      "Text",
+      "Number",
+      "PriceSpecification"
+    ],
+    "priceCurrency": [
+      "Text"
+    ],
+    "modifiedTime": [
+      "DateTime"
+    ],
+    "reservedTicket": [
+      "Ticket"
+    ],
+    "bookingAgent": [
+      "Organization",
+      "Person"
+    ],
+    "reservationStatus": [
+      "ReservationStatusType"
+    ],
+    "underName": [
+      "Organization",
+      "Person"
+    ],
+    "reservationFor": [
+      "Thing"
+    ],
+    "broker": [
+      "Organization",
+      "Person"
+    ],
+    "programMembershipUsed": [
+      "ProgramMembership"
+    ],
+    "bookingTime": [
+      "DateTime"
+    ],
+    "reservationId": [
+      "Text"
+    ]
+  },
+  "Seat": {
+    "seatSection": [
+      "Text"
+    ],
+    "seatRow": [
+      "Text"
+    ],
+    "seatingType": [
+      "QualitativeValue",
+      "Text"
+    ],
+    "seatNumber": [
+      "Text"
+    ]
+  },
+  "ProductModel": {
+    "successorOf": [
+      "ProductModel"
+    ],
+    "isVariantOf": [
+      "ProductModel",
+      "ProductGroup"
+    ],
+    "predecessorOf": [
+      "ProductModel"
+    ]
+  },
+  "UpdateAction": {
+    "collection": [
+      "Thing"
+    ],
+    "targetCollection": [
+      "Thing"
+    ]
+  },
+  "Review": {
+    "associatedMediaReview": [
+      "Review"
+    ],
+    "itemReviewed": [
+      "Thing"
+    ],
+    "reviewRating": [
+      "Rating"
+    ],
+    "reviewBody": [
+      "Text"
+    ],
+    "associatedClaimReview": [
+      "Review"
+    ],
+    "negativeNotes": [
+      "ListItem",
+      "WebContent",
+      "ItemList",
+      "Text"
+    ],
+    "associatedReview": [
+      "Review"
+    ],
+    "reviewAspect": [
+      "Text"
+    ],
+    "positiveNotes": [
+      "ListItem",
+      "ItemList",
+      "WebContent",
+      "Text"
+    ]
+  },
+  "MedicalGuideline": {
+    "guidelineSubject": [
+      "MedicalEntity"
+    ],
+    "evidenceOrigin": [
+      "Text"
+    ],
+    "guidelineDate": [
+      "Date"
+    ],
+    "evidenceLevel": [
+      "MedicalEvidenceLevel"
+    ]
+  },
+  "InvestmentOrDeposit": {
+    "amount": [
+      "Number",
+      "MonetaryAmount"
+    ]
+  },
+  "MonetaryGrant": {
+    "amount": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "ApartmentComplex": {
+    "tourBookingPage": [
+      "URL"
+    ],
+    "numberOfAvailableAccommodationUnits": [
+      "QuantitativeValue"
+    ],
+    "numberOfAccommodationUnits": [
+      "QuantitativeValue"
+    ],
+    "numberOfBedrooms": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "petsAllowed": [
+      "Boolean",
+      "Text"
+    ]
+  },
+  "MusicPlaylist": {
+    "tracks": [
+      "MusicRecording"
+    ],
+    "track": [
+      "MusicRecording",
+      "ItemList"
+    ],
+    "numTracks": [
+      "Integer"
+    ]
+  },
+  "DigitalDocument": {
+    "hasDigitalDocumentPermission": [
+      "DigitalDocumentPermission"
+    ]
+  },
+  "HowToSection": {
+    "steps": [
+      "Text",
+      "ItemList",
+      "CreativeWork"
+    ]
+  },
+  "BroadcastChannel": {
+    "inBroadcastLineup": [
+      "CableOrSatelliteService"
+    ],
+    "broadcastFrequency": [
+      "BroadcastFrequencySpecification",
+      "Text"
+    ],
+    "broadcastServiceTier": [
+      "Text"
+    ],
+    "providesBroadcastService": [
+      "BroadcastService"
+    ],
+    "broadcastChannelId": [
+      "Text"
+    ],
+    "genre": [
+      "Text",
+      "URL"
+    ]
+  },
+  "AggregateRating": {
+    "reviewCount": [
+      "Integer"
+    ],
+    "itemReviewed": [
+      "Thing"
+    ],
+    "ratingCount": [
+      "Integer"
+    ]
+  },
+  "LocationFeatureSpecification": {
+    "validFrom": [
+      "Date",
+      "DateTime"
+    ],
+    "hoursAvailable": [
+      "OpeningHoursSpecification"
+    ],
+    "validThrough": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "ReceiveAction": {
+    "sender": [
+      "Person",
+      "Audience",
+      "Organization"
+    ],
+    "deliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "Game": {
+    "characterAttribute": [
+      "Thing"
+    ],
+    "numberOfPlayers": [
+      "QuantitativeValue"
+    ],
+    "gameItem": [
+      "Thing"
+    ],
+    "gameLocation": [
+      "URL",
+      "Place",
+      "PostalAddress"
+    ],
+    "quest": [
+      "Thing"
+    ]
+  },
+  "GovernmentService": {
+    "jurisdiction": [
+      "AdministrativeArea",
+      "Text"
+    ],
+    "serviceOperator": [
+      "Organization"
+    ]
+  },
+  "Rating": {
+    "worstRating": [
+      "Text",
+      "Number"
+    ],
+    "author": [
+      "Organization",
+      "Person"
+    ],
+    "ratingValue": [
+      "Text",
+      "Number"
+    ],
+    "bestRating": [
+      "Number",
+      "Text"
+    ],
+    "ratingExplanation": [
+      "Text"
+    ],
+    "reviewAspect": [
+      "Text"
+    ]
+  },
+  "EntryPoint": {
+    "httpMethod": [
+      "Text"
+    ],
+    "actionPlatform": [
+      "Text",
+      "URL",
+      "DigitalPlatformEnumeration"
+    ],
+    "actionApplication": [
+      "SoftwareApplication"
+    ],
+    "urlTemplate": [
+      "Text"
+    ],
+    "encodingType": [
+      "Text"
+    ],
+    "contentType": [
+      "Text"
+    ],
+    "application": [
+      "SoftwareApplication"
+    ]
+  },
+  "WarrantyPromise": {
+    "durationOfWarranty": [
+      "QuantitativeValue"
+    ],
+    "warrantyScope": [
+      "WarrantyScope"
+    ]
+  },
+  "Vein": {
+    "tributary": [
+      "AnatomicalStructure"
+    ],
+    "regionDrained": [
+      "AnatomicalStructure",
+      "AnatomicalSystem"
+    ],
+    "drainsTo": [
+      "Vessel"
+    ]
+  },
+  "HealthInsurancePlan": {
+    "healthPlanDrugOption": [
+      "Text"
+    ],
+    "healthPlanId": [
+      "Text"
+    ],
+    "healthPlanMarketingUrl": [
+      "URL"
+    ],
+    "healthPlanDrugTier": [
+      "Text"
+    ],
+    "usesHealthPlanIdStandard": [
+      "URL",
+      "Text"
+    ],
+    "includesHealthPlanFormulary": [
+      "HealthPlanFormulary"
+    ],
+    "contactPoint": [
+      "ContactPoint"
+    ],
+    "benefitsSummaryUrl": [
+      "URL"
+    ],
+    "includesHealthPlanNetwork": [
+      "HealthPlanNetwork"
+    ]
+  },
+  "CategoryCode": {
+    "codeValue": [
+      "Text"
+    ],
+    "inCodeSet": [
+      "URL",
+      "CategoryCodeSet"
+    ]
+  },
+  "HowToItem": {
+    "requiredQuantity": [
+      "Number",
+      "QuantitativeValue",
+      "Text"
+    ]
+  },
+  "MedicalCause": {
+    "causeOf": [
+      "MedicalEntity"
+    ]
+  },
+  "MediaReview": {
+    "originalMediaLink": [
+      "MediaObject",
+      "WebPage",
+      "URL"
+    ],
+    "originalMediaContextDescription": [
+      "Text"
+    ],
+    "mediaAuthenticityCategory": [
+      "MediaManipulationRatingEnumeration"
+    ]
+  },
+  "AskAction": {
+    "question": [
+      "Question"
+    ]
+  },
+  "CivicStructure": {
+    "openingHours": [
+      "Text"
+    ]
+  },
+  "BankAccount": {
+    "accountOverdraftLimit": [
+      "MonetaryAmount"
+    ],
+    "accountMinimumInflow": [
+      "MonetaryAmount"
+    ],
+    "bankAccountType": [
+      "Text",
+      "URL"
+    ]
+  },
+  "EnergyConsumptionDetails": {
+    "hasEnergyEfficiencyCategory": [
+      "EnergyEfficiencyEnumeration"
+    ],
+    "energyEfficiencyScaleMax": [
+      "EUEnergyEfficiencyEnumeration"
+    ],
+    "energyEfficiencyScaleMin": [
+      "EUEnergyEfficiencyEnumeration"
+    ]
+  },
+  "FlightReservation": {
+    "boardingGroup": [
+      "Text"
+    ],
+    "securityScreening": [
+      "Text"
+    ],
+    "passengerPriorityStatus": [
+      "QualitativeValue",
+      "Text"
+    ],
+    "passengerSequenceNumber": [
+      "Text"
+    ]
+  },
+  "OwnershipInfo": {
+    "acquiredFrom": [
+      "Person",
+      "Organization"
+    ],
+    "typeOfGood": [
+      "Product",
+      "Service"
+    ],
+    "ownedThrough": [
+      "DateTime"
+    ],
+    "ownedFrom": [
+      "DateTime"
+    ]
+  },
+  "BroadcastFrequencySpecification": {
+    "broadcastFrequencyValue": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "broadcastSignalModulation": [
+      "QualitativeValue",
+      "Text"
+    ],
+    "broadcastSubChannel": [
+      "Text"
+    ]
+  },
+  "MedicalRiskFactor": {
+    "increasesRiskOf": [
+      "MedicalEntity"
+    ]
+  },
+  "DrugCost": {
+    "costCategory": [
+      "DrugCostCategory"
+    ],
+    "costCurrency": [
+      "Text"
+    ],
+    "drugUnit": [
+      "Text"
+    ],
+    "costOrigin": [
+      "Text"
+    ],
+    "applicableLocation": [
+      "AdministrativeArea"
+    ],
+    "costPerUnit": [
+      "Number",
+      "QualitativeValue",
+      "Text"
+    ]
+  },
+  "SellAction": {
+    "buyer": [
+      "Organization",
+      "Person"
+    ],
+    "warrantyPromise": [
+      "WarrantyPromise"
+    ]
+  },
+  "MedicalTherapy": {
+    "contraindication": [
+      "Text",
+      "MedicalContraindication"
+    ],
+    "seriousAdverseOutcome": [
+      "MedicalEntity"
+    ],
+    "duplicateTherapy": [
+      "MedicalTherapy"
+    ]
+  },
+  "PublicationEvent": {
+    "free": [
+      "Boolean"
+    ],
+    "publishedOn": [
+      "BroadcastService"
+    ],
+    "publishedBy": [
+      "Person",
+      "Organization"
+    ]
+  },
+  "LeaveAction": {
+    "event": [
+      "Event"
+    ]
+  },
+  "InformAction": {
+    "event": [
+      "Event"
+    ]
+  },
+  "JoinAction": {
+    "event": [
+      "Event"
+    ]
+  },
+  "InviteAction": {
+    "event": [
+      "Event"
+    ]
+  },
+  "PlayAction": {
+    "event": [
+      "Event"
+    ],
+    "audience": [
+      "Audience"
+    ]
+  },
+  "MedicalGuidelineRecommendation": {
+    "recommendationStrength": [
+      "Text"
+    ]
+  },
+  "Menu": {
+    "hasMenuItem": [
+      "MenuItem"
+    ],
+    "hasMenuSection": [
+      "MenuSection"
+    ]
+  },
+  "MenuSection": {
+    "hasMenuItem": [
+      "MenuItem"
+    ],
+    "hasMenuSection": [
+      "MenuSection"
+    ]
+  },
+  "TradeAction": {
+    "priceCurrency": [
+      "Text"
+    ],
+    "priceSpecification": [
+      "PriceSpecification"
+    ],
+    "price": [
+      "Text",
+      "Number"
+    ]
+  },
+  "DonateAction": {
+    "priceCurrency": [
+      "Text"
+    ],
+    "priceSpecification": [
+      "PriceSpecification"
+    ],
+    "price": [
+      "Text",
+      "Number"
+    ],
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "BuyAction": {
+    "seller": [
+      "Organization",
+      "Person"
+    ],
+    "warrantyPromise": [
+      "WarrantyPromise"
+    ],
+    "vendor": [
+      "Person",
+      "Organization"
+    ]
+  },
+  "CommentAction": {
+    "resultComment": [
+      "Comment"
+    ]
+  },
+  "ReplyAction": {
+    "resultComment": [
+      "Comment"
+    ]
+  },
+  "GeoCircle": {
+    "geoRadius": [
+      "Text",
+      "Number",
+      "Distance"
+    ],
+    "geoMidpoint": [
+      "GeoCoordinates"
+    ]
+  },
+  "LymphaticVessel": {
+    "originatesFrom": [
+      "Vessel"
+    ],
+    "regionDrained": [
+      "AnatomicalStructure",
+      "AnatomicalSystem"
+    ],
+    "runsTo": [
+      "Vessel"
+    ]
+  },
+  "AlignmentObject": {
+    "targetName": [
+      "Text"
+    ],
+    "targetDescription": [
+      "Text"
+    ],
+    "educationalFramework": [
+      "Text"
+    ],
+    "alignmentType": [
+      "Text"
+    ],
+    "targetUrl": [
+      "URL"
+    ]
+  },
+  "WebSite": {
+    "issn": [
+      "Text"
+    ]
+  },
+  "CreativeWorkSeries": {
+    "issn": [
+      "Text"
+    ],
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ]
+  },
+  "MusicAlbum": {
+    "albumReleaseType": [
+      "MusicAlbumReleaseType"
+    ],
+    "byArtist": [
+      "MusicGroup",
+      "Person"
+    ],
+    "albumProductionType": [
+      "MusicAlbumProductionType"
+    ],
+    "albumRelease": [
+      "MusicRelease"
+    ]
+  },
+  "FinancialProduct": {
+    "interestRate": [
+      "Number",
+      "QuantitativeValue"
+    ],
+    "feesAndCommissionsSpecification": [
+      "Text",
+      "URL"
+    ],
+    "annualPercentageRate": [
+      "Number",
+      "QuantitativeValue"
+    ]
+  },
+  "BedDetails": {
+    "typeOfBed": [
+      "BedType",
+      "Text"
+    ],
+    "numberOfBeds": [
+      "Number"
+    ]
+  },
+  "Thesis": {
+    "inSupportOf": [
+      "Text"
+    ]
+  },
+  "TouristAttraction": {
+    "touristType": [
+      "Audience",
+      "Text"
+    ],
+    "availableLanguage": [
+      "Text",
+      "Language"
+    ]
+  },
+  "TouristDestination": {
+    "touristType": [
+      "Audience",
+      "Text"
+    ],
+    "includesAttraction": [
+      "TouristAttraction"
+    ]
+  },
+  "TouristTrip": {
+    "touristType": [
+      "Audience",
+      "Text"
+    ]
+  },
+  "FollowAction": {
+    "followee": [
+      "Person",
+      "Organization"
+    ]
+  },
+  "Grant": {
+    "fundedItem": [
+      "Organization",
+      "CreativeWork",
+      "Person",
+      "Product",
+      "BioChemEntity",
+      "MedicalEntity",
+      "Event"
+    ],
+    "sponsor": [
+      "Person",
+      "Organization"
+    ],
+    "funder": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "TravelAction": {
+    "distance": [
+      "Distance"
+    ]
+  },
+  "MerchantReturnPolicySeasonalOverride": {
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "returnPolicyCategory": [
+      "MerchantReturnEnumeration"
+    ],
+    "returnMethod": [
+      "ReturnMethodEnumeration"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "returnFees": [
+      "ReturnFeesEnumeration"
+    ],
+    "merchantReturnDays": [
+      "Date",
+      "Integer",
+      "DateTime"
+    ],
+    "restockingFee": [
+      "Number",
+      "MonetaryAmount"
+    ],
+    "refundType": [
+      "RefundTypeEnumeration"
+    ],
+    "returnShippingFeesAmount": [
+      "MonetaryAmount"
+    ]
+  },
+  "Role": {
+    "endDate": [
+      "Date",
+      "DateTime"
+    ],
+    "roleName": [
+      "Text",
+      "URL"
+    ],
+    "startDate": [
+      "Date",
+      "DateTime"
+    ],
+    "namedPosition": [
+      "URL",
+      "Text"
+    ]
+  },
+  "PaymentChargeSpecification": {
+    "appliesToPaymentMethod": [
+      "PaymentMethod"
+    ],
+    "appliesToDeliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "PlayGameAction": {
+    "gameAvailabilityType": [
+      "Text",
+      "GameAvailabilityEnumeration"
+    ]
+  },
+  "DataCatalog": {
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ],
+    "dataset": [
+      "Dataset"
+    ]
+  },
+  "DataDownload": {
+    "measurementTechnique": [
+      "Text",
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum"
+    ],
+    "measurementMethod": [
+      "DefinedTerm",
+      "URL",
+      "MeasurementMethodEnum",
+      "Text"
+    ]
+  },
+  "Physician": {
+    "usNPI": [
+      "Text"
+    ],
+    "occupationalCategory": [
+      "CategoryCode",
+      "Text"
+    ],
+    "medicalSpecialty": [
+      "MedicalSpecialty"
+    ],
+    "hospitalAffiliation": [
+      "Hospital"
+    ],
+    "availableService": [
+      "MedicalProcedure",
+      "MedicalTest",
+      "MedicalTherapy"
+    ]
+  },
+  "HealthTopicContent": {
+    "hasHealthAspect": [
+      "HealthAspectEnumeration"
+    ]
+  },
+  "BusinessAudience": {
+    "numberOfEmployees": [
+      "QuantitativeValue"
+    ],
+    "yearsInOperation": [
+      "QuantitativeValue"
+    ],
+    "yearlyRevenue": [
+      "QuantitativeValue"
+    ]
+  },
+  "LoseAction": {
+    "winner": [
+      "Person"
+    ]
+  },
+  "ConsumeAction": {
+    "actionAccessibilityRequirement": [
+      "ActionAccessSpecification"
+    ],
+    "expectsAcceptanceOf": [
+      "Offer"
+    ]
+  },
+  "WorkBasedProgram": {
+    "occupationalCategory": [
+      "CategoryCode",
+      "Text"
+    ],
+    "trainingSalary": [
+      "MonetaryAmountDistribution"
+    ]
+  },
+  "OccupationalExperienceRequirements": {
+    "monthsOfExperience": [
+      "Number"
+    ]
+  },
+  "MedicalObservationalStudy": {
+    "studyDesign": [
+      "MedicalObservationalStudyDesign"
+    ]
+  },
+  "Protein": {
+    "hasBioPolymerSequence": [
+      "Text"
+    ]
+  },
+  "EducationEvent": {
+    "assesses": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "teaches": [
+      "Text",
+      "DefinedTerm"
+    ],
+    "educationalLevel": [
+      "URL",
+      "Text",
+      "DefinedTerm"
+    ]
+  },
+  "MedicalRiskEstimator": {
+    "estimatesRiskOf": [
+      "MedicalEntity"
+    ],
+    "includedRiskFactor": [
+      "MedicalRiskFactor"
+    ]
+  },
+  "HyperToc": {
+    "associatedMedia": [
+      "MediaObject"
+    ],
+    "tocEntry": [
+      "HyperTocEntry"
+    ]
+  },
+  "WriteAction": {
+    "language": [
+      "Language"
+    ],
+    "inLanguage": [
+      "Text",
+      "Language"
+    ]
+  },
+  "Airport": {
+    "iataCode": [
+      "Text"
+    ],
+    "icaoCode": [
+      "Text"
+    ]
+  },
+  "ShippingService": {
+    "fulfillmentType": [
+      "FulfillmentTypeEnumeration"
+    ],
+    "shippingConditions": [
+      "ShippingConditions"
+    ],
+    "validForMemberTier": [
+      "MemberProgramTier"
+    ],
+    "handlingTime": [
+      "ServicePeriod",
+      "QuantitativeValue"
+    ]
+  },
+  "LendAction": {
+    "borrower": [
+      "Person"
+    ]
+  },
+  "DigitalDocumentPermission": {
+    "permissionType": [
+      "DigitalDocumentPermissionType"
+    ],
+    "grantee": [
+      "Audience",
+      "Organization",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "MedicalRiskScore": {
+    "algorithm": [
+      "Text"
+    ]
+  },
+  "InfectiousDisease": {
+    "infectiousAgentClass": [
+      "InfectiousAgentClass"
+    ],
+    "infectiousAgent": [
+      "Text"
+    ],
+    "transmissionMethod": [
+      "Text"
+    ]
+  },
+  "ListItem": {
+    "nextItem": [
+      "ListItem"
+    ],
+    "position": [
+      "Text",
+      "Integer"
+    ],
+    "item": [
+      "Thing"
+    ],
+    "previousItem": [
+      "ListItem"
+    ]
+  },
+  "HowToSupply": {
+    "estimatedCost": [
+      "MonetaryAmount",
+      "Text"
+    ]
+  },
+  "DefinedTermSet": {
+    "hasDefinedTerm": [
+      "DefinedTerm"
+    ]
+  },
+  "TechArticle": {
+    "proficiencyLevel": [
+      "Text"
+    ],
+    "dependencies": [
+      "Text"
+    ]
+  },
+  "DefinedRegion": {
+    "postalCodeRange": [
+      "PostalCodeRangeSpecification"
+    ],
+    "postalCode": [
+      "Text"
+    ],
+    "addressCountry": [
+      "Text",
+      "Country"
+    ],
+    "addressRegion": [
+      "Text"
+    ],
+    "postalCodePrefix": [
+      "Text"
+    ]
+  },
+  "Audience": {
+    "geographicArea": [
+      "AdministrativeArea"
+    ],
+    "audienceType": [
+      "Text"
+    ]
+  },
+  "RsvpAction": {
+    "additionalNumberOfGuests": [
+      "Number"
+    ],
+    "rsvpResponse": [
+      "RsvpResponseType"
+    ],
+    "comment": [
+      "Comment"
+    ]
+  },
+  "CookAction": {
+    "recipe": [
+      "Recipe"
+    ],
+    "foodEstablishment": [
+      "Place",
+      "FoodEstablishment"
+    ],
+    "foodEvent": [
+      "FoodEvent"
+    ]
+  },
+  "SportsEvent": {
+    "referee": [
+      "Person"
+    ],
+    "sport": [
+      "URL",
+      "Text"
+    ],
+    "homeTeam": [
+      "Person",
+      "SportsTeam"
+    ],
+    "competitor": [
+      "Person",
+      "SportsTeam"
+    ],
+    "awayTeam": [
+      "Person",
+      "SportsTeam"
+    ]
+  },
+  "DoseSchedule": {
+    "frequency": [
+      "Text"
+    ],
+    "targetPopulation": [
+      "Text"
+    ],
+    "doseUnit": [
+      "Text"
+    ],
+    "doseValue": [
+      "QualitativeValue",
+      "Number"
+    ]
+  },
+  "Nerve": {
+    "nerveMotor": [
+      "Muscle"
+    ],
+    "sourcedFrom": [
+      "BrainStructure"
+    ],
+    "sensoryUnit": [
+      "AnatomicalStructure",
+      "SuperficialAnatomy"
+    ],
+    "branch": [
+      "AnatomicalStructure"
+    ]
+  },
+  "ClaimReview": {
+    "claimReviewed": [
+      "Text"
+    ]
+  },
+  "BusOrCoach": {
+    "roofLoad": [
+      "QuantitativeValue"
+    ],
+    "acrissCode": [
+      "Text"
+    ]
+  },
+  "Car": {
+    "roofLoad": [
+      "QuantitativeValue"
+    ],
+    "acrissCode": [
+      "Text"
+    ]
+  },
+  "Report": {
+    "reportNumber": [
+      "Text"
+    ]
+  },
+  "SearchAction": {
+    "query": [
+      "Text"
+    ]
+  },
+  "SeekToAction": {
+    "startOffset": [
+      "Number",
+      "HyperTocEntry"
+    ]
+  },
+  "LodgingBusiness": {
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ],
+    "availableLanguage": [
+      "Text",
+      "Language"
+    ],
+    "checkoutTime": [
+      "DateTime",
+      "Time"
+    ],
+    "audience": [
+      "Audience"
+    ],
+    "amenityFeature": [
+      "LocationFeatureSpecification"
+    ],
+    "petsAllowed": [
+      "Boolean",
+      "Text"
+    ],
+    "starRating": [
+      "Rating"
+    ],
+    "checkinTime": [
+      "DateTime",
+      "Time"
+    ]
+  },
+  "House": {
+    "numberOfRooms": [
+      "QuantitativeValue",
+      "Number"
+    ]
+  },
+  "IndividualPhysician": {
+    "practicesAt": [
+      "MedicalOrganization"
+    ]
+  },
+  "MediaReviewItem": {
+    "mediaItemAppearance": [
+      "MediaObject"
+    ]
+  },
+  "Diet": {
+    "expertConsiderations": [
+      "Text"
+    ],
+    "dietFeatures": [
+      "Text"
+    ],
+    "physiologicalBenefits": [
+      "Text"
+    ],
+    "endorsers": [
+      "Organization",
+      "Person"
+    ],
+    "risks": [
+      "Text"
+    ]
+  },
+  "MemberProgram": {
+    "hasTiers": [
+      "MemberProgramTier"
+    ],
+    "hostingOrganization": [
+      "Organization"
+    ]
+  },
+  "ScreeningEvent": {
+    "workPresented": [
+      "Movie"
+    ],
+    "subtitleLanguage": [
+      "Language",
+      "Text"
+    ],
+    "videoFormat": [
+      "Text"
+    ]
+  },
+  "MedicalConditionStage": {
+    "subStageSuffix": [
+      "Text"
+    ],
+    "stageAsNumber": [
+      "Number"
+    ]
+  },
+  "MedicalSignOrSymptom": {
+    "possibleTreatment": [
+      "MedicalTherapy"
+    ]
+  },
+  "ChemicalSubstance": {
+    "potentialUse": [
+      "DefinedTerm"
+    ],
+    "chemicalComposition": [
+      "Text"
+    ],
+    "chemicalRole": [
+      "DefinedTerm"
+    ]
+  },
+  "ReservationPackage": {
+    "subReservation": [
+      "Reservation"
+    ]
+  },
+  "FinancialService": {
+    "feesAndCommissionsSpecification": [
+      "Text",
+      "URL"
+    ]
+  },
+  "PhysicalActivity": {
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ],
+    "associatedAnatomy": [
+      "AnatomicalStructure",
+      "SuperficialAnatomy",
+      "AnatomicalSystem"
+    ],
+    "epidemiology": [
+      "Text"
+    ],
+    "pathophysiology": [
+      "Text"
+    ]
+  },
+  "Recommendation": {
+    "category": [
+      "Thing",
+      "PhysicalActivityCategory",
+      "Text",
+      "URL",
+      "CategoryCode"
+    ]
+  },
+  "ReviewAction": {
+    "resultReview": [
+      "Review"
+    ]
+  },
+  "CategoryCodeSet": {
+    "hasCategoryCode": [
+      "CategoryCode"
+    ]
+  },
+  "MovieTheater": {
+    "screenCount": [
+      "Number"
+    ]
+  },
+  "MathSolver": {
+    "mathExpression": [
+      "SolveMathAction",
+      "Text"
+    ]
+  },
+  "ImagingTest": {
+    "imagingTechnique": [
+      "MedicalImagingTechnique"
+    ]
+  },
+  "DefinedTerm": {
+    "inDefinedTermSet": [
+      "DefinedTermSet",
+      "URL"
+    ],
+    "termCode": [
+      "Text"
+    ]
+  },
+  "MoveAction": {
+    "fromLocation": [
+      "Place"
+    ],
+    "toLocation": [
+      "Place"
+    ]
+  },
+  "TransferAction": {
+    "fromLocation": [
+      "Place"
+    ],
+    "toLocation": [
+      "Place"
+    ]
+  },
+  "DrugLegalStatus": {
+    "applicableLocation": [
+      "AdministrativeArea"
+    ]
+  },
+  "SportsOrganization": {
+    "sport": [
+      "URL",
+      "Text"
+    ]
+  },
+  "Artery": {
+    "arterialBranch": [
+      "AnatomicalStructure"
+    ],
+    "supplyTo": [
+      "AnatomicalStructure"
+    ]
+  },
+  "DrugClass": {
+    "drug": [
+      "Drug"
+    ]
+  },
+  "TherapeuticProcedure": {
+    "drug": [
+      "Drug"
+    ],
+    "adverseOutcome": [
+      "MedicalEntity"
+    ],
+    "doseSchedule": [
+      "DoseSchedule"
+    ]
+  },
+  "Map": {
+    "mapType": [
+      "MapCategoryType"
+    ]
+  },
+  "3DModel": {
+    "isResizable": [
+      "Boolean"
+    ]
+  },
+  "SocialMediaPosting": {
+    "sharedContent": [
+      "CreativeWork"
+    ]
+  },
+  "IndividualProduct": {
+    "serialNumber": [
+      "Text"
+    ]
+  },
+  "EmployeeRole": {
+    "baseSalary": [
+      "PriceSpecification",
+      "MonetaryAmount",
+      "Number"
+    ],
+    "salaryCurrency": [
+      "Text"
+    ]
+  },
+  "ParentAudience": {
+    "childMaxAge": [
+      "Number"
+    ],
+    "childMinAge": [
+      "Number"
+    ]
+  },
+  "MortgageLoan": {
+    "loanMortgageMandateAmount": [
+      "MonetaryAmount"
+    ],
+    "domiciledMortgage": [
+      "Boolean"
+    ]
+  },
+  "BorrowAction": {
+    "lender": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "MedicalClinic": {
+    "medicalSpecialty": [
+      "MedicalSpecialty"
+    ],
+    "availableService": [
+      "MedicalProcedure",
+      "MedicalTest",
+      "MedicalTherapy"
+    ]
+  },
+  "InsertAction": {
+    "toLocation": [
+      "Place"
+    ]
+  },
+  "VoteAction": {
+    "candidate": [
+      "Person"
+    ]
+  },
+  "ProductCollection": {
+    "includesObject": [
+      "TypeAndQuantityNode"
+    ]
+  },
+  "StatisticalPopulation": {
+    "populationType": [
+      "Class"
+    ]
+  },
+  "PathologyTest": {
+    "tissueSample": [
+      "Text"
+    ]
+  },
+  "DiagnosticLab": {
+    "availableTest": [
+      "MedicalTest"
+    ]
+  },
+  "AuthorizeAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "PayAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "TipAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "ReturnAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "SendAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ],
+    "deliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "GiveAction": {
+    "recipient": [
+      "Organization",
+      "Audience",
+      "ContactPoint",
+      "Person"
+    ]
+  },
+  "Quotation": {
+    "spokenByCharacter": [
+      "Organization",
+      "Person"
+    ]
+  },
+  "Guide": {
+    "reviewAspect": [
+      "Text"
+    ]
+  },
+  "OrderAction": {
+    "deliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "TrackAction": {
+    "deliveryMethod": [
+      "DeliveryMethod"
+    ]
+  },
+  "TVClip": {
+    "partOfTVSeries": [
+      "TVSeries"
+    ]
+  },
+  "WebApplication": {
+    "browserRequirements": [
+      "Text"
+    ]
+  },
+  "MedicalScholarlyArticle": {
+    "publicationType": [
+      "Text"
+    ]
+  },
+  "DataFeed": {
+    "dataFeedElement": [
+      "DataFeedItem",
+      "Thing",
+      "Text"
+    ]
+  },
+  "WebAPI": {
+    "documentation": [
+      "URL",
+      "CreativeWork"
+    ]
+  },
+  "PaymentMethod": {
+    "paymentMethodType": [
+      "PaymentMethodType"
+    ]
+  },
+  "LegislationObject": {
+    "legislationLegalValue": [
+      "LegalValueLevel"
+    ]
+  },
+  "MobileApplication": {
+    "carrierRequirements": [
+      "Text"
+    ]
+  },
+  "EndorseAction": {
+    "endorsee": [
+      "Organization",
+      "Person"
+    ]
+  }
+}
