@@ -1,5 +1,5 @@
-const SchemaValidator = require('.libSchemaValidator');
+const SchemaOrgValidator = require('./lib/SchemaOrgValidator');
 
 module.exports = {
-  SchemaValidator
+  SchemaOrgValidator
 };

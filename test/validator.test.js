@@ -1,7 +1,7 @@
 const path = require('path');
-const SchemaValidator = require('../lib/SchemaValidator');
+const SchemaValidator = require('../lib/SchemaOrgValidator');
 
-describe('SchemaValidator', () => {
+describe('SchemaOrgValidator', () => {
   let validator;
 
   beforeAll(() => {

@@ -1,9 +1,11 @@
-# schema-validate
+# schema-org-validate
 
 [![npm version](https://img.shields.io/npm/v/schema-validate.svg)](https://www.npmjs.com/package/schema-validate)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Validator for [schema.org](https://schema.org/) JSON-LD data, based on local type maps extracted from official schema.org vocabulary.
+
+**Note:** This is a third-party tool and **not an official release** from schema.org or any affiliated organization.
 
 ## Features
 
@@ -15,16 +17,16 @@ Validator for [schema.org](https://schema.org/) JSON-LD data, based on local typ
 ## Installation
 
 ```bash
-npm install schema-validate
+npm install schema-org-validate
 ```
 ## Usage
 
 ### Simple use
 
 ```js
-const SchemaValidator = require('schema-validate');
+const SchemaOrgValidator = require('schema-org-validate');
 
-const validator = new SchemaValidator();
+const validator = new SchemaOrgValidator();
 
 const exampleJsonLd = {
   "@context": "https://schema.org/",

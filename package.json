@@ -1,5 +1,5 @@
 {
-  "name": "schema-validate",
+  "name": "schema-org-validate",
   "version": "0.1.0",
   "description": "Validator for schema.org JSON-LD based on local type maps",
   "main": "index.js",
@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a4csi/schema-validate.git"
+    "url": "git+https://github.com/a4csi/schema-org-validate.git"
   },
   "bugs": {
-    "url": "https://github.com/a4csi/schema-validate/issues"
+    "url": "https://github.com/a4csi/schema-org-validate/issues"
   },
-  "homepage": "https://github.com/a4csi/schema-validate#readme"
+  "homepage": "https://github.com/a4csi/schema-org-validate#readme"
 }
